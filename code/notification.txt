@@ -1,0 +1,15 @@
+1. java jdk 1.8 
+
+2. elasticsearch 7.6.2
+(my elasticsearch has already contains the data for program test, so you can use my elasticsearch and run with code.)
+(the database contains a index called "J_goodsList" which is used for test.)
+
+3. I have create a program that can install some product message into elasticsearch from https://search.jd.com/ website and can 
+use these data to do some basic search.
+
+4. here I will show you a example for how to run this program to do a basic function of search. 
+1) visit http://localhost:9090/search/java/1/10 to install information in to es
+2) visit http://localhost:9090 and try to search "java"
+
+5. also in class "EsApiApplicationTests" there are all the test for elasticsearch basic function.
+
