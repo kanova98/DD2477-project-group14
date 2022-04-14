@@ -1,0 +1,2007 @@
+{
+    "books": [
+        {
+            "title": "The Complete Works",
+            "authors": [
+                "William Shakespeare"
+            ],
+            "ranking": 4.47,
+            "ranking_count": 52745,
+            "abstract": "Tempest. Two Gentlemen of Verona. Merry Wives of Windsor. Measure for Measure. Comedy of Errors. Much Ado About Nothing. Love's Labour's Lost. Midsummer Night's Dream. Merchant of Venice. As You Like It. Taming of the Shrew. All's Well That Ends Well. Twelfth Night. Winter's Tale. King John. King Richard II. King Henry IV. Part 1. King Henry IV. Part 2. King Henry V. King Henry VI. Part 1. King Henry VI. Part 2. King Henry VI. Part 3. King Richard III. King Henry VIII. Troilus and Cressida. Coriolanus. Titus Andronicus. Romeo and Juliet. Timon of Athens. Julius Caesar. Macbeth. Hamlet. King Lear. Othello. Anthony and Cleopatra. Cymbeline. Pericles. Venus and Adonis. Rape of Lucrece. Sonnets. Lover's Complaint. Passionate Pilgrim. Sonnets to Sundry Notes of Music. Phoenix and the Turtle",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Poetry",
+                "Fiction",
+                "Plays",
+                "Drama",
+                "Literature",
+                "Reference",
+                "Historical"
+            ]
+        },
+        {
+            "title": "Leaves of Grass",
+            "authors": [
+                "Walt Whitman"
+            ],
+            "ranking": 4.11,
+            "ranking_count": 94807,
+            "abstract": "A collection of quintessentially American poems, the seminal work of one of the most influential writers of the nineteenth century.",
+            "part_of_series": true,
+            "genre_list": [
+                "Poetry",
+                "Classics",
+                "Fiction",
+                "Literature",
+                "Philosophy",
+                "Academic",
+                "The United States Of America"
+            ]
+        },
+        {
+            "title": "The Thirteenth Tale",
+            "authors": [
+                "Diane Setterfield"
+            ],
+            "ranking": 3.97,
+            "ranking_count": 295324,
+            "abstract": "All children mythologize their birth...So begins the prologue of reclusive author Vida Winter's collection of stories, which are as famous for the mystery of the missing thirteenth tale as they are for the delight and enchantment of the twelve that do exist.. The enigmatic Winter has spent six decades creating various outlandish life histories for herself -- all of them inventions that have brought her fame and fortune but have kept her violent and tragic past a secret. Now old and ailing, she at last wants to tell the truth about her extraordinary life. She summons biographer Margaret Lea, a young woman for whom the secret of her own birth, hidden by those who loved her most, remains an ever-present pain. Struck by a curious parallel between Miss Winter's story and her own, Margaret takes on the commission.. As Vida disinters the life she meant to bury for good, Margaret is mesmerized. It is a tale of gothic strangeness featuring the Angelfield family, including the beautiful and willful Isabelle, the feral twins Adeline and Emmeline, a ghost, a governess, a topiary garden and a devastating fire.. Margaret succumbs to the power of Vida's storytelling but remains suspicious of the author's sincerity. She demands the truth from Vida, and together they confront the ghosts that have haunted them while becoming, finally, transformed by the truth themselves.. The Thirteenth Tale is a love letter to reading, a book for the feral reader in all of us, a return to that rich vein of storytelling that our parents loved and that we loved as children. Diane Setterfield will keep you guessing, make you wonder, move you to tears and laughter and, in the end, deposit you breathless yet satisfied back upon the shore of your everyday life.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fiction",
+                "Mystery",
+                "Historical",
+                "Gothic",
+                "Writing",
+                "Adult",
+                "Fantasy",
+                "Thriller",
+                "Book Club"
+            ]
+        },
+        {
+            "title": "The Time Machine",
+            "authors": [
+                "H.G. Wells",
+                "Greg Bear",
+                "Carlo Pagetti"
+            ],
+            "ranking": 3.9,
+            "ranking_count": 462894,
+            "abstract": "“I’ve had a most amazing time....”. So begins the Time Traveller’s astonishing firsthand account of his journey 800,000 years beyond his own era—and the story that launched H.G. Wells’s successful career and earned him his reputation as the father of science fiction. With a speculative leap that still fires the imagination, Wells sends his brave explorer to face a future burdened with our greatest hopes...and our darkest fears. A pull of the Time Machine’s lever propels him to the age of a slowly dying Earth.  There he discovers two bizarre races—the ethereal Eloi and the subterranean Morlocks—who not only symbolize the duality of human nature, but offer a terrifying portrait of the men of tomorrow as well.  Published in 1895, this masterpiece of invention captivated readers on the threshold of a new century. Thanks to Wells’s expert storytelling and provocative insight,. The Time Machine. will continue to enthrall readers for generations to come.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Science Fiction",
+                "Fiction",
+                "Fantasy",
+                "Literature",
+                "Science Fiction Fantasy",
+                "Adventure",
+                "Audiobook"
+            ]
+        },
+        {
+            "title": "Different Seasons",
+            "authors": [
+                "Stephen King"
+            ],
+            "ranking": 4.34,
+            "ranking_count": 189750,
+            "abstract": "Rita Hayworth and Shawshank Redemption--the most satisfying tale of unjust imprisonment and offbeat escape since The Count of Monte Cristo.. Apt Pupil--a golden California schoolboy and an old man whose hideous past he uncovers enter into a fateful and chilling mutual parasitism.. The Body--four rambunctious young boys venture into the Maine woods and in sunlight and thunder find life, death, and intimations of their own mortality.. The Breathing Method--a tale told in a strange club about a woman determined to give birth no matter what.. source: stephenking.com",
+            "part_of_series": false,
+            "genre_list": [
+                "Horror",
+                "Fiction",
+                "Short Stories",
+                "Thriller",
+                "Mystery",
+                "Fantasy",
+                "Drama",
+                "Classics",
+                "Suspense",
+                "Anthologies"
+            ]
+        },
+        {
+            "title": "Heidi",
+            "authors": [
+                "Johanna Spyri",
+                "Beverly Cleary",
+                "Angelo  Rinaldi"
+            ],
+            "ranking": 4.01,
+            "ranking_count": 185218,
+            "abstract": "Little orphan Heidi goes to live high in the Alps with her gruff grandfather and brings happiness to all who know her on the mountain. When Heidi goes to Frankfurt to work in a wealthy household, she dreams of returning to the mountains and meadows, her friend Peter, and her beloved grandfather.",
+            "part_of_series": true,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Childrens",
+                "Young Adult",
+                "Historical",
+                "Literature"
+            ]
+        },
+        {
+            "title": "City of Lost Souls",
+            "authors": [
+                "Cassandra Clare"
+            ],
+            "ranking": 4.24,
+            "ranking_count": 482296,
+            "abstract": "The. New York Times. bestselling Mortal Instruments continues—and so do the thrills and danger for Jace, Clary, and Simon.. What price is too high to pay, even for love? When Jace and Clary meet again, Clary is horrified to discover that the demon Lilith’s magic has bound her beloved Jace together with her evil brother Sebastian, and that Jace has become a servant of evil. The Clave is out to destroy Sebastian, but there is no way to harm one boy without destroying the other. As Alec, Magnus, Simon, and Isabelle wheedle and bargain with Seelies, demons, and the merciless Iron Sisters to try to save Jace, Clary plays a dangerous game of her own. The price of losing is not just her own life, but Jace’s soul. She’s willing to do anything for Jace, but can she still trust him? Or is he truly lost?. Love. Blood. Betrayal. Revenge. Darkness threatens to claim the Shadowhunters in the harrowing fifth book of the Mortal Instruments series.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Young Adult",
+                "Romance",
+                "Paranormal",
+                "Fiction"
+            ]
+        },
+        {
+            "title": "The Cider House Rules",
+            "authors": [
+                "John Irving"
+            ],
+            "ranking": 4.15,
+            "ranking_count": 171602,
+            "abstract": "Raised from birth in the orphanage at St. Cloud's, Maine, Homer Wells has become the protege of Dr. Wilbur Larch, its physician and director. There Dr. Larch cares for the troubled mothers who seek his help, either by delivering and taking in their unwanted babies or by performing illegal abortions. Meticulously trained by Dr. Larch, Homer assists in the former, but draws the line at the latter. Then a young man brings his beautiful fiancee to Dr. Larch for an abortion, and everything about the couple beckons Homer to the wide world outside the orphanage ...",
+            "part_of_series": false,
+            "genre_list": [
+                "Fiction",
+                "Classics",
+                "Historical",
+                "Literature",
+                "Literary Fiction",
+                "Novels",
+                "Contemporary",
+                "Adult Fiction"
+            ]
+        },
+        {
+            "title": "Graceling",
+            "authors": [
+                "Kristin Cashore"
+            ],
+            "ranking": 4.07,
+            "ranking_count": 425817,
+            "abstract": "Katsa has been able to kill a man with her bare hands since she was eight—she’s a Graceling, one of the rare people in her land born with an extreme skill. As niece of the king, she should be able to live a life of privilege, but Graced as she is with killing, she is forced to work as the king’s thug.. She never expects to fall in love with beautiful Prince Po.. She never expects to learn the truth behind her Grace—or the terrible secret that lies hidden far away . . . a secret that could destroy all seven kingdoms with words alone.. With elegant, evocative prose and a cast of unforgettable characters, debut author Kristin Cashore creates a mesmerizing world, a death-defying adventure, and a heart-racing romance that will consume you, hold you captive, and leave you wanting more.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Young Adult",
+                "Romance",
+                "Fiction",
+                "Adventure"
+            ]
+        },
+        {
+            "title": "The Song of Achilles",
+            "authors": [
+                "Madeline Miller"
+            ],
+            "ranking": 4.4,
+            "ranking_count": 753344,
+            "abstract": "Alternate cover edition of. ISBN 9780062060624. .. Achilles, the best of all the Greeks, son of the cruel sea goddess Thetis and the legendary king Peleus, is strong, swift, and beautiful, irresistible to all who meet him. Patroclus is an awkward young prince, exiled from his homeland after an act of shocking violence. Brought together by chance, they forge an inseparable bond, despite risking the gods' wrath.. They are trained by the centaur Chiron in the arts of war and medicine, but when word comes that Helen of Sparta has been kidnapped, all the heroes of Greece are called upon to lay siege to Troy in her name. Seduced by the promise of a glorious destiny, Achilles joins their cause, and torn between love and fear for his friend, Patroclus follows. Little do they know that the cruel Fates will test them both as never before and demand a terrible sacrifice.",
+            "part_of_series": false,
+            "genre_list": [
+                "Historical",
+                "Fantasy",
+                "Fiction",
+                "Romance",
+                "LGBT",
+                "Mythology",
+                "Retellings"
+            ]
+        },
+        {
+            "title": "Mockingjay",
+            "authors": [
+                "Suzanne Collins"
+            ],
+            "ranking": 4.06,
+            "ranking_count": 2708441,
+            "abstract": "My name is Katniss Everdeen.. Why am I not dead?. I should be dead.. Katniss Everdeen, girl on fire, has survived, even though her home has been destroyed. Gale has escaped. Katniss's family is safe. Peeta has been captured by the Capitol. District 13 really does exist. There are rebels. There are new leaders. A revolution is unfolding.. It is by design that Katniss was rescued from the arena in the cruel and haunting Quarter Quell, and it is by design that she has long been part of the revolution without knowing it. District 13 has come out of the shadows and is plotting to overthrow the Capitol. Everyone, it seems, has had a hand in the carefully laid plans—except Katniss.. The success of the rebellion hinges on Katniss's willingness to be a pawn, to accept responsibility for countless lives, and to change the course of the future of Panem. To do this, she must put aside her feelings of anger and distrust. She must become the rebels' Mockingjay—no matter what the personal cost.",
+            "part_of_series": true,
+            "genre_list": [
+                "Young Adult",
+                "Science Fiction",
+                "Fiction",
+                "Fantasy",
+                "Romance",
+                "Adventure",
+                "Apocalyptic",
+                "Audiobook"
+            ]
+        },
+        {
+            "title": "Never Let Me Go",
+            "authors": [
+                "Kazuo Ishiguro"
+            ],
+            "ranking": 3.84,
+            "ranking_count": 563908,
+            "abstract": "Hailsham seems like a pleasant English boarding school, far from the influences of the city. Its students are well tended and supported, trained in art and literature, and become just the sort of people the world wants them to be. But, curiously, they are taught nothing of the outside world and are allowed little contact with it.. Within the grounds of Hailsham, Kathy grows from schoolgirl to young woman, but it’s only when she and her friends Ruth and Tommy leave the safe grounds of the school (as they always knew they would) that they realize the full truth of what Hailsham is.. Never Let Me Go. breaks through the boundaries of the literary novel. It is a gripping mystery, a beautiful love story, and also a scathing critique of human arrogance and a moral examination of how we treat the vulnerable and different in our society. In exploring the themes of memory and the impact of the past, Ishiguro takes on the idea of a possible future to create his most moving and powerful book to date.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fiction",
+                "Science Fiction",
+                "Contemporary",
+                "Literary Fiction",
+                "Romance",
+                "Novels",
+                "Adult",
+                "Literature",
+                "Classics"
+            ]
+        },
+        {
+            "title": "The Lord of the Rings",
+            "authors": [
+                "J.R.R. Tolkien"
+            ],
+            "ranking": 4.51,
+            "ranking_count": 614712,
+            "abstract": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them. In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell by chance into the hands of the hobbit Bilbo Baggins.. From Sauron's fastness in the Dark Tower of Mordor, his power spread far and wide. Sauron gathered all the Great Rings to him, but always he searched for the One Ring that would complete his dominion.. When Bilbo reached his eleventy-first birthday he disappeared, bequeathing to his young cousin Frodo the Ruling Ring and a perilous quest: to journey across Middle-earth, deep into the shadow of the Dark Lord, and destroy the Ring by casting it into the Cracks of Doom.. The Lord of the Rings tells of the great quest undertaken by Frodo and the Fellowship of the Ring: Gandalf the Wizard; the hobbits Merry, Pippin, and Sam; Gimli the Dwarf; Legolas the Elf; Boromir of Gondor; and a tall, mysterious stranger called Strider.",
+            "part_of_series": true,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Adventure",
+                "Science Fiction Fantasy",
+                "Fantasy",
+                "Literature",
+                "Novels",
+                "Young Adult",
+                "Epic"
+            ]
+        },
+        {
+            "title": "The Wise Man's Fear",
+            "authors": [
+                "Patrick Rothfuss"
+            ],
+            "ranking": 4.55,
+            "ranking_count": 484279,
+            "abstract": "“. There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man.. ”. My name is Kvothe.. I have stolen princesses back from sleeping barrow kings. I burned down the town of Trebon. I have spent the night with Felurian and left with both my sanity and my life. I was expelled from the University at a younger age than most people are allowed in. I tread paths by moonlight that others fear to speak of during day. I have talked to Gods, loved women, and written songs that make the minstrels weep.. You may have heard of me.. So begins the tale of a hero told from his own point of view — a story unequaled in fantasy literature. Now in. The Wise Man's Fear. , an escalating rivalry with a powerful member of the nobility forces Kvothe to leave the University and seek his fortune abroad. Adrift, penniless, and alone, he travels to Vintas, where he quickly becomes entangled in the politics of courtly society. While attempting to curry favor with a powerful noble, Kvothe uncovers an assassination attempt, comes into conflict with a rival arcanist, and leads a group of mercenaries into the wild, in an attempt to solve the mystery of who (or what) is waylaying travelers on the King's Road.. All the while, Kvothe searches for answers, attempting to uncover the truth about the mysterious Amyr, the Chandrian, and the death of his parents. Along the way, Kvothe is put on trial by the legendary Adem mercenaries, is forced to reclaim the honor of the Edema Ruh, and travels into the Fae realm. There he meets Felurian, the faerie woman no man can resist, and who no man has ever survived ... until Kvothe.. In. The Wise Man's Fear. , Kvothe takes his first steps on the path of the hero and learns how difficult life can be when a man becomes a legend in his own time.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Fiction",
+                "Science Fiction Fantasy",
+                "Adventure",
+                "Audiobook",
+                "Adult",
+                "Epic"
+            ]
+        },
+        {
+            "title": "Are You There God? It's Me, Margaret",
+            "authors": [
+                "Judy Blume"
+            ],
+            "ranking": 3.91,
+            "ranking_count": 200964,
+            "abstract": "Margaret Simon, almost twelve, likes long hair, tuna fish, the smell of rain, and things that are pink. She’s just moved from New York City to Farbook, New Jersey, and is anxious to fit in with her new friends—Nancy, Gretchen, and Janie. When they form a secret club to talk about private subjects like boys, bras, and getting their first periods, Margaret is happy to belong.. But none of them can believe Margaret doesn’t have religion, and that she isn’t going to the Y or the Jewish Community Center. What they don’t know is Margaret has her own very special relationship with God. She can talk to God about everything—family, friends, even Moose Freed, her secret crush.. Margaret is funny and real, and her thoughts and feelings are oh-so-relatable—you’ll feel like she’s talking right to you, sharing her secrets with a friend.",
+            "part_of_series": false,
+            "genre_list": [
+                "Young Adult",
+                "Fiction",
+                "Childrens",
+                "Classics",
+                "Realistic Fiction",
+                "Contemporary",
+                "Literature"
+            ]
+        },
+        {
+            "title": "Sophie's World",
+            "authors": [
+                "Jostein Gaarder",
+                "Paulette Møller"
+            ],
+            "ranking": 3.95,
+            "ranking_count": 229909,
+            "abstract": "An alternative cover for this ISBN can be found. here. One day fourteen-year-old Sophie Amundsen comes home from school to find in her mailbox two notes, with one question on each: Who are you? and Where does the world come from? From that irresistible beginning, Sophie becomes obsessed with questions that take her far beyond what she knows of her Norwegian village. Through those letters, she enrolls in a kind of correspondence course, covering Socrates to Sartre, with a mysterious philosopher, while receiving letters addressed to another girl. Who is Hilde? And why does her mail keep turning up? To unravel this riddle, Sophie must use the philosophy she is learning—but the truth turns out to be far more complicated than she could have imagined.",
+            "part_of_series": false,
+            "genre_list": [
+                "Philosophy",
+                "Fiction",
+                "Classics",
+                "Young Adult",
+                "Novels",
+                "Fantasy",
+                "Literature",
+                "Contemporary",
+                "Unfinished",
+                "European Literature"
+            ]
+        },
+        {
+            "title": "The Son of Neptune",
+            "authors": [
+                "Rick Riordan"
+            ],
+            "ranking": 4.42,
+            "ranking_count": 489481,
+            "abstract": "PERCY IS CONFUSED.. When he awoke from his long sleep, he didn't know much more than his name. His brain fuzz is lingering, even after the wolf Lupa told him he is a demigod and trained him to fight with the pen/sword in his pocket. Somehow Percy manages to make it to a camp for half-bloods, despite the fact that he has to keep killing monsters along the way. But the camp doesn't ring any bells with him. The only thing he can recall from his past is another name:. Annabeth. .. HAZEL IS SUPPOSED TO BE DEAD.. When she lived before, she didn't do a very good job of it. Sure, she was an obedient daughter, even when her mother was possessed by greed. But that was the problem—when the Voice took over her mother and commanded Hazel to use her gift for an evil purpose, Hazel couldn't say no. Now because of her mistake, the future of the world is at risk. Hazel wishes she could ride away from it all on the stallion that appears in her dreams.. FRANK IS A KLUTZ.. His grandmother says he is descended from heroes and can be anything he wants to be, but he doesn't see it. He doesn't even know who his father is. He keeps hoping Apollo will claim him, because the only thing he is good at is archery—although not good enough to win camp war games. His bulky physique makes him feel like an ox, especially in front of Hazel, his closest friend at camp. He trusts her completely—enough to share the secret he holds close to his heart.. Beginning at the other camp for half-bloods and extending as far as the land beyond the gods, this breathtaking second installment of the Heroes of Olympus series introduces new demigods, revives fearsome monsters, and features other remarkable creatures, all destined to play a part in the Prophesy of Seven.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Young Adult",
+                "Fiction",
+                "Childrens",
+                "Adventure",
+                "Mythology"
+            ]
+        },
+        {
+            "title": "Walden",
+            "authors": [
+                "Henry David Thoreau"
+            ],
+            "ranking": 3.78,
+            "ranking_count": 174311,
+            "abstract": "Originally published in 1854, Walden; or, Life in the Woods, is a vivid account of the time that Henry D. Thoreau lived alone in a secluded cabin at Walden Pond. It is one of the most influential and compelling books in American literature. This new paperback edition-introduced by noted American writer John Updike-celebrates the 150th anniversary of this classic work. Much of Walden's material is derived from Thoreau's journals and contains such engaging pieces as Reading and The Pond in the Winter Other famous sections involve Thoreau's visits with a Canadian woodcutter and with an Irish family, a trip to Concord, and a description of his bean field. This is the complete and authoritative text of Walden-as close to Thoreau's original intention as all available evidence allows. For the student and for the general reader, this is the ideal presentation of Thoreau's great document of social criticism and dissent.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Philosophy",
+                "Nonfiction",
+                "Environment",
+                "Autobiography",
+                "Literature",
+                "Biography",
+                "Writing"
+            ]
+        },
+        {
+            "title": "Fangirl",
+            "authors": [
+                "Rainbow Rowell"
+            ],
+            "ranking": 3.99,
+            "ranking_count": 676110,
+            "abstract": "A coming-of-age tale of fanfiction, family, and first love.. Cath is a Simon Snow fan. Okay, the whole world is a Simon Snow fan.... But for Cath, being a fan is her life—and she's really good at it. She and her twin, Wren, ensconced themselves in the Simon Snow series when they were just kids; it's what got them through their mother leaving.. Reading. Rereading. Hanging out in Simon Snow forums, writing Simon Snow fanfiction, dressing up like the characters for every movie premiere. Cath's sister has mostly grown away from fandom, but Cath can't let go. She doesn't want to.. Now that they're going to college, Wren has told Cath she doesn't want to be roommates. Cath is on her own, completely outside of her comfort zone. She's got a surly roommate with a charming, always-around boyfriend; a fiction-writing professor who thinks fanfiction is the end of the civilized world; a handsome classmate who only wants to talk about words... and she can't stop worrying about her dad, who's loving and fragile and has never really been alone.. For Cath, the question is: Can she do this? Can she make it without Wren holding her hand? Is she ready to start living her own life? And does she even want to move on if it means leaving Simon Snow behind?. An unabridged recording on 10 CDs (12 hours, 49 minutes).",
+            "part_of_series": false,
+            "genre_list": [
+                "Young Adult",
+                "Contemporary",
+                "Romance",
+                "Fiction",
+                "Realistic Fiction",
+                "New Adult",
+                "Audiobook",
+                "Womens Fiction"
+            ]
+        },
+        {
+            "title": "The Way of Kings",
+            "authors": [
+                "Brandon Sanderson"
+            ],
+            "ranking": 4.64,
+            "ranking_count": 375315,
+            "abstract": "From #1. New York Times. bestselling author Brandon Sanderson,. The Way of Kings. , book one of The Stormlight Archive begins an incredible new saga of epic proportion.. Roshar is a world of stone and storms. Uncanny tempests of incredible power sweep across the rocky terrain so frequently that they have shaped ecology and civilization alike. Animals hide in shells, trees pull in branches, and grass retracts into the soilless ground. Cities are built only where the topography offers shelter.. It has been centuries since the fall of the ten consecrated orders known as the Knights Radiant, but their Shardblades and Shardplate remain: mystical swords and suits of armor that transform ordinary men into near-invincible warriors. Men trade kingdoms for Shardblades. Wars were fought for them, and won by them.. One such war rages on a ruined landscape called the Shattered Plains. There, Kaladin, who traded his medical apprenticeship for a spear to protect his little brother, has been reduced to slavery. In a war that makes no sense, where ten armies fight separately against a single foe, he struggles to save his men and to fathom the leaders who consider them expendable.. Brightlord Dalinar Kholin commands one of those other armies. Like his brother, the late king, he is fascinated by an ancient text called The Way of Kings. Troubled by over-powering visions of ancient times and the Knights Radiant, he has begun to doubt his own sanity.. Across the ocean, an untried young woman named Shallan seeks to train under an eminent scholar and notorious heretic, Dalinar's niece, Jasnah. Though she genuinely loves learning, Shallan's motives are less than pure. As she plans a daring theft, her research for Jasnah hints at secrets of the Knights Radiant and the true cause of the war.. The result of over ten years of planning, writing, and world-building, The Way of Kings is but the opening movement of the Stormlight Archive, a bold masterpiece in the making.. Speak again the ancient oaths:. Life before death.. Strength before weakness.. Journey before Destination.. and return to men the Shards they once bore.. The Knights Radiant must stand again.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Fiction",
+                "Audiobook",
+                "Adult",
+                "Science Fiction Fantasy",
+                "Epic",
+                "Adventure"
+            ]
+        },
+        {
+            "title": "Ready Player One",
+            "authors": [
+                "Ernest Cline"
+            ],
+            "ranking": 4.24,
+            "ranking_count": 1009651,
+            "abstract": "Librarian's note: An alternate cover edition can be found. here. IN THE YEAR 2044, reality is an ugly place.. The only time teenage Wade Watts really feels alive is when he's jacked into the virtual utopia known as the OASIS. Wade's devoted his life to studying the puzzles hidden within this world's digital confines, puzzles that are based on their creator's obsession with the pop culture of decades past and that promise massive power and fortune to whoever can unlock them.. But when Wade stumbles upon the first clue, he finds himself beset by players willing to kill to take this ultimate prize. The race is on, and if Wade's going to survive, he'll have to win—and confront the real world he's always been so desperate to escape.",
+            "part_of_series": true,
+            "genre_list": [
+                "Science Fiction",
+                "Fiction",
+                "Young Adult",
+                "Fantasy",
+                "Audiobook",
+                "Adventure",
+                "Science Fiction Fantasy",
+                "Adult"
+            ]
+        },
+        {
+            "title": "The Awakening",
+            "authors": [
+                "Kate Chopin"
+            ],
+            "ranking": 3.67,
+            "ranking_count": 185520,
+            "abstract": "When first published in 1899,. The Awakening. shocked readers with its honest treatment of female marital infidelity. Audiences accustomed to the pieties of late Victorian romantic fiction were taken aback by Chopin's daring portrayal of a woman trapped in a stifling marriage, who seeks and finds passionate physical love outside the confines of her domestic situation.. Aside from its unusually frank treatment of a then-controversial subject, the novel is widely admired today for its literary qualities. Edmund Wilson characterized it as a work quite uninhibited and beautifully written, which anticipates D. H. Lawrence in its treatment of infidelity. Although the theme of marital infidelity no longer shocks, few novels have plumbed the psychology of a woman involved in an illicit relationship with the perception, artistry, and honesty that Kate Chopin brought to. The Awakening. .",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Feminism",
+                "Academic",
+                "Literature",
+                "Historical",
+                "Young Adult",
+                "Novels"
+            ]
+        },
+        {
+            "title": "The Mark of Athena",
+            "authors": [
+                "Rick Riordan"
+            ],
+            "ranking": 4.46,
+            "ranking_count": 509823,
+            "abstract": "Annabeth is terrified.. Just when she's about to be reunited with Percy—after six months of being apart, thanks to Hera—it looks like Camp Jupiter is preparing for war. As Annabeth and her friends Jason, Piper, and Leo fly in on the. Argo II. , she can't blame the Roman demigods for thinking the ship is a Greek weapon. With its steaming bronze dragon figurehead, Leo's fantastical creation doesn't appear friendly. Annabeth hopes that the sight of their praetor Jason on deck will reassure the Romans that the visitors from Camp Half-Blood are coming in peace.. And that's only one of her worries. In her pocket, Annabeth carries a gift from her mother that came with an unnerving command:. Follow the Mark of Athena. Avenge me.. Annabeth already feels weighed down by the prophecy that will send seven demigods on a quest to find—and close—the Doors of Death. What more does Athena want from her?. Annabeth's biggest fear, though, is that Percy might have changed. What if he's now attached to Roman ways? Does he still need his old friends? As the daughter of the goddess of war and wisdom, Annabeth knows she was born to be a leader—but never again does she want to be without Seaweed Brain by her side. Narrated by four different demigods,. The Mark of Athena. is an unforgettable journey across land and sea to Rome, where important discoveries, surprising sacrifices, and unspeakable horrors await. Climb aboard the. Argo II. , if you dare. . . .",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Young Adult",
+                "Fiction",
+                "Childrens",
+                "Adventure",
+                "Mythology",
+                "Romance"
+            ]
+        },
+        {
+            "title": "Sophie's Choice",
+            "authors": [
+                "William Styron"
+            ],
+            "ranking": 4.18,
+            "ranking_count": 86251,
+            "abstract": "Three stories are told: a young Southerner wants to become a writer; a turbulent love-hate affair between a brilliant Jew and a beautiful Polish woman; and of an awful wound in that woman's past--one that impels both Sophie and Nathan toward destruction.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fiction",
+                "Classics",
+                "Historical",
+                "World War II",
+                "War",
+                "Literature",
+                "Novels"
+            ]
+        },
+        {
+            "title": "Fried Green Tomatoes at the Whistle Stop Cafe",
+            "authors": [
+                "Fannie Flagg"
+            ],
+            "ranking": 4.28,
+            "ranking_count": 284964,
+            "abstract": "It's first the story of two women in the 1980s, of gray-headed Mrs. Threadgoode telling her life story to Evelyn, who is in the sad slump of middle age. The tale she tells is. also. of two women-of the irrepressibly daredevilish tomboy Idgie and her friend Ruth, who back in the thirties ran a little place in Whistle Stop, Alabama, a Southern kind of Cafe Wobegon offering good barbecue and good coffee and all kinds of love and laughter, even an occasional murder.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fiction",
+                "Historical",
+                "LGBT",
+                "Classics",
+                "Womens Fiction",
+                "American",
+                "Humor",
+                "Adult Fiction"
+            ]
+        },
+        {
+            "title": "Mrs. Dalloway",
+            "authors": [
+                "Virginia Woolf",
+                "Maureen Howard"
+            ],
+            "ranking": 3.79,
+            "ranking_count": 255790,
+            "abstract": "Heralded as Virginia Woolf's greatest novel, this is a vivid portrait of a single day in a woman's life. When we meet her, Mrs. Clarissa Dalloway is preoccupied with the last-minute details of party preparation while in her mind she is something much more than a perfect society hostess. As she readies her house, she is flooded with remembrances of faraway times. And, met with the realities of the present, Clarissa reexamines the choices that brought her there, hesitantly looking ahead to the unfamiliar work of growing old.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Literature",
+                "Novels",
+                "Feminism",
+                "European Literature",
+                "Literary Fiction",
+                "Academic"
+            ]
+        },
+        {
+            "title": "Me Before You",
+            "authors": [
+                "Jojo Moyes"
+            ],
+            "ranking": 4.26,
+            "ranking_count": 1375271,
+            "abstract": "From the #1. New York Times. bestselling author of. The Giver of Stars. , discover the love story that captured over 20 million hearts in. Me Before You. ,. After You. , and. Still Me. .. They had nothing in common until love gave them everything to lose . . .. Louisa Clark is an ordinary girl living an exceedingly ordinary life—steady boyfriend, close family—who has barely been farther afield than their tiny village. She takes a badly needed job working for ex–Master of the Universe Will Traynor, who is wheelchair bound after an accident. Will has always lived a huge life—big deals, extreme sports, worldwide travel—and now he’s pretty sure he cannot live the way he is.. Will is acerbic, moody, bossy—but Lou refuses to treat him with kid gloves, and soon his happiness means more to her than she expected. When she learns that Will has shocking plans of his own, she sets out to show him that life is still worth living.. A Love Story. for this generation and perfect for fans of John Green’s. The Fault in Our Stars. ,. Me Before You. brings to life two people who couldn’t have less in common—a heartbreakingly romantic novel that asks,. What do you do when making the person you love happy also means breaking your own heart?",
+            "part_of_series": true,
+            "genre_list": [
+                "Romance",
+                "Fiction",
+                "Contemporary",
+                "Womens Fiction",
+                "Adult",
+                "Adult Fiction",
+                "Audiobook",
+                "Drama",
+                "Realistic Fiction"
+            ]
+        },
+        {
+            "title": "The Prince of Tides",
+            "authors": [
+                "Pat Conroy"
+            ],
+            "ranking": 4.24,
+            "ranking_count": 200764,
+            "abstract": "PAT CONROY has created a huge, brash thunderstorm of a novel, stinging with honesty and resounding with drama. Spanning forty years, this is the story of turbulent Tom Wingo, his gifted and troubled twin sister Savannah, and their struggle to triumph over the dark and tragic legacy of the extraordinary family into which they were born.. Filled with the vanishing beauty of the South Carolina low country as well as the dusty glitter of New York City,. The Prince of Tides. is PAT CONROY at his very best.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fiction",
+                "Classics",
+                "American",
+                "Romance",
+                "Contemporary",
+                "Literary Fiction",
+                "Literature",
+                "Drama",
+                "Novels",
+                "Adult Fiction"
+            ]
+        },
+        {
+            "title": "Wonder",
+            "authors": [
+                "R.J. Palacio"
+            ],
+            "ranking": 4.4,
+            "ranking_count": 925717,
+            "abstract": "I won’t describe what I look like. Whatever you’re thinking, it’s probably worse.. August Pullman was born with a facial difference that, up until now, has prevented him from going to a mainstream school. Starting 5th grade at Beecher Prep, he wants nothing more than to be treated as an ordinary kid—but his new classmates can’t get past Auggie’s extraordinary face.. Wonder. , begins from Auggie’s point of view, but soon switches to include his classmates, his sister, her boyfriend, and others.",
+            "part_of_series": true,
+            "genre_list": [
+                "Young Adult",
+                "Fiction",
+                "Childrens",
+                "Contemporary",
+                "Realistic Fiction",
+                "Academic",
+                "Family",
+                "Novels"
+            ]
+        },
+        {
+            "title": "Fifty Shades Darker",
+            "authors": [
+                "E.L. James"
+            ],
+            "ranking": 3.84,
+            "ranking_count": 818567,
+            "abstract": "Daunted by the singular sexual tastes and dark secrets of the beautiful, tormented young entrepreneur Christian Grey, Anastasia Steele has broken off their relationship to start a new career with a Seattle publishing house. But desire for Christian still dominates her every waking thought, and when he proposes a new arrangement, Anastasia cannot resist. They rekindle their searing sensual affair, and Anastasia learns more about the harrowing past of her damaged, driven, and demanding Fifty Shades. While Christian wrestles with his inner demons, Anastasia must confront her anger and envy of the women who came before her and make the most important decision of her life. Erotic, sparkling and suspenseful,. Fifty Shades Darker. is the irresistibly addictive second part of the Fifty Shades trilogy.",
+            "part_of_series": true,
+            "genre_list": [
+                "Romance",
+                "Adult Fiction",
+                "Fiction",
+                "Erotica",
+                "Adult",
+                "Contemporary",
+                "Womens Fiction"
+            ]
+        },
+        {
+            "title": "Dead Until Dark",
+            "authors": [
+                "Charlaine Harris"
+            ],
+            "ranking": 3.96,
+            "ranking_count": 518872,
+            "abstract": "Sookie Stackhouse is just a small-time cocktail waitress in small-town Louisiana. Until the vampire of her dreams walks into her life-and one of her coworkers checks out..... Maybe having a vampire for a boyfriend isn't such a bright idea.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Paranormal",
+                "Romance",
+                "Fiction",
+                "Mystery",
+                "Horror"
+            ]
+        },
+        {
+            "title": "Legend",
+            "authors": [
+                "Marie Lu"
+            ],
+            "ranking": 4.16,
+            "ranking_count": 474395,
+            "abstract": "What was once the western United States is now home to the Republic, a nation perpetually at war with its neighbors. Born into an elite family in one of the Republic's wealthiest districts, fifteen-year-old June is a prodigy being groomed for success in the Republic's highest military circles. Born into the slums, fifteen-year-old Day is the country's most wanted criminal. But his motives may not be as malicious as they seem.. From very different worlds, June and Day have no reason to cross paths—until the day June's brother, Metias, is murdered and Day becomes the prime suspect. Caught in the ultimate game of cat and mouse, Day is in a race for his family's survival, while June seeks to avenge Metias's death. But in a shocking turn of events, the two uncover the truth of what has really brought them together, and the sinister lengths their country will go to keep its secrets.. Alternate Cover edition for ISBN. 9780399256752",
+            "part_of_series": true,
+            "genre_list": [
+                "Young Adult",
+                "Science Fiction",
+                "Fantasy",
+                "Romance",
+                "Fiction",
+                "Adventure",
+                "Audiobook",
+                "Action"
+            ]
+        },
+        {
+            "title": "Middlemarch",
+            "authors": [
+                "George Eliot",
+                "Michel Faber",
+                "Doreen Roberts"
+            ],
+            "ranking": 3.99,
+            "ranking_count": 146953,
+            "abstract": "Taking place in the years leading up to the First Reform Bill of 1832,. Middlemarch. explores nearly every subject of concern to modern life: art, religion, science, politics, self, society, human relationships. Among her characters are some of the most remarkable portraits in English literature: Dorothea Brooke, the heroine, idealistic but naive; Rosamond Vincy, beautiful and egoistic: Edward Casaubon, the dry-as-dust scholar: Tertius Lydgate, the brilliant but morally-flawed physician: the passionate artist Will Ladislaw: and Fred Vincey and Mary Garth, childhood sweethearts whose charming courtship is one of the many humorous elements in the novel's rich comic vein.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Historical",
+                "Literature",
+                "Novels",
+                "European Literature",
+                "Romance",
+                "Audiobook"
+            ]
+        },
+        {
+            "title": "Things Fall Apart",
+            "authors": [
+                "Chinua Achebe"
+            ],
+            "ranking": 3.71,
+            "ranking_count": 324870,
+            "abstract": "A simple story of a strong man whose life is dominated by fear and anger,. Things Fall Apart. is written with remarkable economy and subtle irony. Uniquely and richly African, at the same time it reveals Achebe's keen awareness of the human qualities common to men of all times and places.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fiction",
+                "Classics",
+                "Historical",
+                "Cultural",
+                "Academic",
+                "Literature",
+                "Novels",
+                "Western Africa"
+            ]
+        },
+        {
+            "title": "The Monster at the End of this Book",
+            "authors": [
+                "Jon Stone",
+                "Michael J. Smollin"
+            ],
+            "ranking": 4.44,
+            "ranking_count": 122829,
+            "abstract": "Many adults name this book as their favorite Little Golden Book. Generations of kids have interacted with lovable, furry old Grover as he begs the reader not to turn the page—for fear of a monster at the end of the book. “Oh, I am so embarrassed,” he says on the last page . . . for, of course, the monster is Grover himself!. This all-time favorite is now available as a Big Little Golden Book—perfect for lap-time reading.",
+            "part_of_series": true,
+            "genre_list": [
+                "Childrens",
+                "Fiction",
+                "Humor",
+                "Classics",
+                "Folklore",
+                "Kids",
+                "Fantasy"
+            ]
+        },
+        {
+            "title": "Bridget Jones's Diary",
+            "authors": [
+                "Helen Fielding"
+            ],
+            "ranking": 3.79,
+            "ranking_count": 925312,
+            "abstract": "Meet Bridget Jones—. a 30-something Singleton who is certain she would have all the answers if she could:. a. lose 7 pounds. b. stop smoking. c. develop Inner Poise. 123 lbs. (how is it possible to put on 4 pounds in the middle of the night? Could flesh have somehow solidified becoming denser and heavier? Repulsive, horrifying notion), alcohol units 4 (excellent), cigarettes 21 (poor but will give up totally tomorrow), number of correct lottery numbers 2 (better, but nevertheless useless).... Bridget Jones' Diary. is the devastatingly self-aware, laugh-out-loud daily chronicle of Bridget's permanent, doomed quest for self-improvement — a year in which she resolves to: reduce the circumference of each thigh by 1.5 inches, visit the gym three times a week not just to buy a sandwich, form a functional relationship with a responsible adult, and learn to program the VCR.. Over the course of the year, Bridget loses a total of 72 pounds but gains a total of 74. She remains, however, optimistic. Through it all, Bridget will have you helpless with laughter, and — like millions of readers the world round — you'll find yourself shouting, Bridget Jones is me!",
+            "part_of_series": true,
+            "genre_list": [
+                "Fiction",
+                "Womens Fiction",
+                "Romance",
+                "Humor",
+                "Contemporary",
+                "Adult",
+                "Adult Fiction",
+                "European Literature"
+            ]
+        },
+        {
+            "title": "Do Androids Dream of Electric Sheep?",
+            "authors": [
+                "Philip K. Dick"
+            ],
+            "ranking": 4.09,
+            "ranking_count": 393541,
+            "abstract": "It was January 2021, and Rick Deckard had a license to kill.. Somewhere among the hordes of humans out there, lurked several rogue androids. Deckard's assignment--find them and then...retire them. Trouble was, the androids all looked exactly like humans, and they didn't want to be found!",
+            "part_of_series": true,
+            "genre_list": [
+                "Science Fiction",
+                "Fiction",
+                "Classics",
+                "Science Fiction Fantasy",
+                "Fantasy",
+                "Novels",
+                "Literature",
+                "Speculative Fiction"
+            ]
+        },
+        {
+            "title": "The Final Empire",
+            "authors": [
+                "Brandon Sanderson"
+            ],
+            "ranking": 4.46,
+            "ranking_count": 501311,
+            "abstract": "What if the whole world were a dead, blasted wasteland?. Mistborn. For a thousand years the ash fell and no flowers bloomed. For a thousand years the Skaa slaved in misery and lived in fear. For a thousand years the Lord Ruler, the Sliver of Infinity, reigned with absolute power and ultimate terror, divinely invincible. Then, when hope was so long lost that not even its memory remained, a terribly scarred, heart-broken half-Skaa rediscovered it in the depths of the Lord Ruler's most hellish prison. Kelsier snapped and found in himself the powers of a Mistborn. A brilliant thief and natural leader, he turned his talents to the ultimate caper, with the Lord Ruler himself as the mark.. Kelsier recruited the underworld's elite, the smartest and most trustworthy allomancers, each of whom shares one of his many powers, and all of whom relish a high-stakes challenge. Then Kelsier reveals his ultimate dream, not just the greatest heist in history, but the downfall of the divine despot.. But even with the best criminal crew ever assembled, Kel's plan looks more like the ultimate long shot, until luck brings a ragged girl named Vin into his life. Like him, she's a half-Skaa orphan, but she's lived a much harsher life. Vin has learned to expect betrayal from everyone she meets. She will have to learn trust if Kel is to help her master powers of which she never dreamed.. Brandon Sanderson, fantasy's newest master tale-spinner and author of the acclaimed debut. Elantris. , dares to turn a genre on its head by asking a simple question: What if the prophesied hero failed to defeat the Dark Lord? The answer will be found in the Misborn Trilogy, a saga of surprises that begins with the book in your hands. Fantasy will never be the same again.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Fiction",
+                "Adult",
+                "Science Fiction Fantasy",
+                "Young Adult",
+                "Audiobook",
+                "Adventure"
+            ]
+        },
+        {
+            "title": "Eleanor & Park",
+            "authors": [
+                "Rainbow Rowell"
+            ],
+            "ranking": 3.99,
+            "ranking_count": 1026079,
+            "abstract": "“Bono met his wife in high school,” Park says.. “So did Jerry Lee Lewis,” Eleanor answers.. “I’m not kidding,” he says.. “You should be,” she says, “we’re 16.”. “What about Romeo and Juliet?”. “Shallow, confused, then dead.”. “I love you,” Park says.. “Wherefore art thou,” Eleanor answers.. “I’m not kidding,” he says.. “You should be.”. Set over one school year in 1986,. Eleanor & Park. is the story of two star-crossed misfits – smart enough to know first love almost never lasts, but brave and desperate enough to try.",
+            "part_of_series": false,
+            "genre_list": [
+                "Young Adult",
+                "Romance",
+                "Contemporary",
+                "Fiction",
+                "Realistic Fiction",
+                "Audiobook"
+            ]
+        },
+        {
+            "title": "The Magician's Nephew",
+            "authors": [
+                "C.S. Lewis"
+            ],
+            "ranking": 4.04,
+            "ranking_count": 471642,
+            "abstract": "The secret passage to the house next door leads to a fascinating adventure. NARNIA...where the woods are thick and cold, where Talking Beasts are called to life...a new world where the adventure begins.. Digory and Polly meet and become friends one cold, wet summer in London. Their lives burst into adventure when Digory's Uncle Andrew, who thinks he is a magician, sends them hurtling to...somewhere else. They find their way to Narnia, newborn from the Lion's song, and encounter the evil sorceress Jadis before they finally return home.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Classics",
+                "Fiction",
+                "Young Adult",
+                "Childrens",
+                "Adventure",
+                "Christian",
+                "Christian Fiction",
+                "Audiobook"
+            ]
+        },
+        {
+            "title": "Stardust",
+            "authors": [
+                "Neil Gaiman"
+            ],
+            "ranking": 4.09,
+            "ranking_count": 400660,
+            "abstract": "Alternate cover edition can be found. here. Young Tristran Thorn will do anything to win the cold heart of beautiful Victoria—even fetch her the star they watch fall from the night sky. But to do so, he must enter the unexplored lands on the other side of the ancient wall that gives their tiny village its name. Beyond that old stone wall, Tristran learns, lies Faerie—where nothing not even a fallen star, is what he imagined.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fantasy",
+                "Fiction",
+                "Romance",
+                "Young Adult",
+                "Adventure",
+                "Science Fiction Fantasy",
+                "Audiobook",
+                "Adult"
+            ]
+        },
+        {
+            "title": "A Time to Kill",
+            "authors": [
+                "John Grisham"
+            ],
+            "ranking": 4.09,
+            "ranking_count": 758208,
+            "abstract": "An alternate cover edition for the ISBN 9780385338608 can be found. here.. Before The Firm and The Pelican Brief made him a superstar, John Grisham wrote this riveting story of retribution and justice. In this searing courtroom drama, best-selling author John Grisham probes the savage depths of racial violence, as he delivers a compelling tale of uncertain justice in a small southern town, Clanton, Mississippi.. The life of a ten-year-old girl is shattered by two drunken and remorseless young men. The mostly white town reacts with shock and horror at the inhuman crime. That is, until her black father acquires an assault rifle and takes matters into his hands.. For ten days, as burning crosses and the crack of sniper fire spread through the streets of Clanton, the nation sits spellbound as young defense attorney Jake Brigance struggles to save his client's life, and then his own.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fiction",
+                "Mystery",
+                "Thriller",
+                "Suspense",
+                "Adult Fiction",
+                "Novels",
+                "Drama"
+            ]
+        },
+        {
+            "title": "Franny and Zooey",
+            "authors": [
+                "J.D. Salinger"
+            ],
+            "ranking": 3.97,
+            "ranking_count": 200606,
+            "abstract": "‘Everything everybody does is so—I don’t know—not. wrong. , or even mean, or even stupid necessarily. But just so tiny and meaningless and—sad-making. And the worst part is, if you go bohemian or something crazy like that, you’re conforming just as much only in a different way.’. First published in. The New Yorker. as two sequential stories, ‘Franny’ and ‘Zooey’ offer a dual portrait of the two youngest members of J. D. Salinger’s fictional Glass family.. Franny Glass is a pretty, effervescent college student on a date with her intellectually confident boyfriend, Lane. They appear to be the perfect couple, but as they struggle to communicate with each other about the things they really care about, slowly their true feelings come to the surface. The second story in this book, ‘Zooey’, plunges us into the world of her ethereal, sophisticated family. When Franny’s emotional and spiritual doubts reach new heights, her older brother Zooey, a misanthropic former child genius, offers her consolation and brotherly advice.. Written in Salinger’s typically irreverent style, these two stories offer a touching snapshot of the distraught mindset of early adulthood and are full of the insightful emotional observations and witty turns of phrase that have helped make Salinger’s reputation what it is today.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fiction",
+                "Classics",
+                "Short Stories",
+                "Literature",
+                "Novels",
+                "Literary Fiction",
+                "Adult Fiction",
+                "Adult"
+            ]
+        },
+        {
+            "title": "The Power of One",
+            "authors": [
+                "Bryce Courtenay"
+            ],
+            "ranking": 4.33,
+            "ranking_count": 83958,
+            "abstract": "In 1939, as Hitler casts his enormous, cruel shadow across the world, the seeds of apartheid take root in South Africa. There, a boy called Peekay is born. His childhood is marked by humiliation and abandonment, yet he vows to survive and conceives heroic dreams, which are nothing compared to what life actually has in store for him. He embarks on an epic journey through a land of tribal superstition and modern prejudice where he will learn the power of words, the power to transform lives and the power of one.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fiction",
+                "Historical",
+                "Cultural",
+                "Classics",
+                "Southern Africa",
+                "Young Adult",
+                "Novels",
+                "Book Club"
+            ]
+        },
+        {
+            "title": "The Hound of the Baskervilles",
+            "authors": [
+                "Arthur Conan Doyle",
+                "Anne Perry"
+            ],
+            "ranking": 4.13,
+            "ranking_count": 296888,
+            "abstract": "Could the sudden death of Sir Charles Baskerville have been caused by the gigantic ghostly hound that is said to have haunted his family for generations? Arch-rationalist Sherlock Holmes characteristically dismisses the theory as nonsense. And immersed in another case, he sends Watson to Devon to protect the Baskerville heir and observe the suspects close at hand. With its atmospheric setting on the ancient, wild moorland and its savage apparition,. The Hound of the Baskervilles. is one of the greatest crime novels ever written. Rationalism is pitted against the supernatural, good against evil, as Sherlock Holmes seeks to defeat a foe almost his equal.",
+            "part_of_series": true,
+            "genre_list": [
+                "Classics",
+                "Mystery",
+                "Fiction",
+                "Thriller",
+                "Audiobook",
+                "Literature",
+                "European Literature"
+            ]
+        },
+        {
+            "title": "Black Beauty",
+            "authors": [
+                "Anna Sewell"
+            ],
+            "ranking": 3.98,
+            "ranking_count": 258233,
+            "abstract": "Black Beauty spends his youth in a loving home, surrounded by friends and cared for by his owners. But when circumstances change, he learns that not all humans are so kind. Passed from hand to hand, Black Beauty witnesses love and cruelty, wealth and poverty, friendship and hardship . . . Will the handsome horse ever find a happy and lasting home? Carefully retold in clear contemporary language, and presented with delightful illustrations, these favorite classic stories capture the heart and imagination of young readers. By retelling the story in a shorter, simpler form, these books become highly engaging for children, and the color illustrations help with both comprehension and interest level. Black Beauty is part of a collectible series that has strong gift appeal.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Childrens",
+                "Animals",
+                "Young Adult",
+                "Historical",
+                "Adventure"
+            ]
+        },
+        {
+            "title": "If I Stay",
+            "authors": [
+                "Gayle Forman"
+            ],
+            "ranking": 3.93,
+            "ranking_count": 799955,
+            "abstract": "In the blink of an eye everything changes. Seventeen ­year-old Mia has no memory of the accident; she can only recall what happened afterwards, watching her own damaged body being taken from the wreck. Little by little she struggles to put together the pieces- to figure out what she has lost, what she has left, and the very difficult choice she must make. Heartwrenchingly beautiful, this will change the way you look at life, love, and family. Now a major motion picture starring Chloe Grace Moretz, Mia's story will stay with you for a long, long time.",
+            "part_of_series": true,
+            "genre_list": [
+                "Young Adult",
+                "Romance",
+                "Contemporary",
+                "Fiction",
+                "Realistic Fiction",
+                "Music",
+                "Death",
+                "Audiobook",
+                "Drama"
+            ]
+        },
+        {
+            "title": "Number the Stars",
+            "authors": [
+                "Lois Lowry"
+            ],
+            "ranking": 4.17,
+            "ranking_count": 506451,
+            "abstract": "Ten-year-old Annemarie Johansen and her best friend Ellen Rosen often think of life before the war. It's now 1943 and their life in Copenhagen is filled with school, food shortages, and the Nazi soldiers marching through town. When the Jews of Denmark are relocated, Ellen moves in with the Johansens and pretends to be one of the family. Soon Annemarie is asked to go on a dangerous mission to save Ellen's life.",
+            "part_of_series": false,
+            "genre_list": [
+                "Historical",
+                "Young Adult",
+                "Fiction",
+                "Classics",
+                "Childrens",
+                "World War II",
+                "Academic",
+                "War"
+            ]
+        },
+        {
+            "title": "A Short History of Nearly Everything",
+            "authors": [
+                "Bill Bryson"
+            ],
+            "ranking": 4.2,
+            "ranking_count": 344610,
+            "abstract": "In Bryson's biggest book, he confronts his greatest challenge: to understand—and, if possible, answer—the oldest, biggest questions we have posed about the universe and ourselves. Taking as territory everything from the Big Bang to the rise of civilization, Bryson seeks to understand how we got from there being nothing at all to there being us. To that end, he has attached himself to a host of the world’s most advanced (and often obsessed) archaeologists, anthropologists, and mathematicians, travelling to their offices, laboratories, and field camps. He has read (or tried to read) their books, pestered them with questions, apprenticed himself to their powerful minds.. A Short History of Nearly Everything. is the record of this quest, and it is a sometimes profound, sometimes funny, and always supremely clear and entertaining adventure in the realms of human knowledge, as only Bill Bryson can render it. Science has never been more involving or entertaining.",
+            "part_of_series": false,
+            "genre_list": [
+                "Nonfiction",
+                "Science",
+                "History",
+                "Audiobook",
+                "Humor",
+                "Historical",
+                "Philosophy",
+                "Unfinished"
+            ]
+        },
+        {
+            "title": "The Art of Racing in the Rain",
+            "authors": [
+                "Garth Stein"
+            ],
+            "ranking": 4.22,
+            "ranking_count": 481317,
+            "abstract": "Enzo knows he is different from other dogs: a philosopher with a nearly human soul (and an obsession with opposable thumbs), he has educated himself by watching television extensively, and by listening very closely to the words of his master, Denny Swift, an up-and-coming race car driver.. Through Denny, Enzo has gained tremendous insight into the human condition, and he sees that life, like racing, isn't simply about going fast. On the eve of his death, Enzo takes stock of his life, recalling all that he and his family have been through.. A heart-wrenching but deeply funny and ultimately uplifting story of family, love, loyalty, and hope,. The Art of Racing in the Rain. is a beautifully crafted and captivating look at the wonders and absurdities of human life ... as only a dog could tell it.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fiction",
+                "Animals",
+                "Contemporary",
+                "Audiobook",
+                "Adult Fiction",
+                "Adult",
+                "Book Club",
+                "Novels",
+                "Family"
+            ]
+        },
+        {
+            "title": "East of Eden",
+            "authors": [
+                "John Steinbeck"
+            ],
+            "ranking": 4.39,
+            "ranking_count": 472066,
+            "abstract": "In his journal, Nobel Prize winner John Steinbeck called East of Eden “the first book,” and indeed it has the primordial power and simplicity of myth. Set in the rich farmland of California’s Salinas Valley, this sprawling and often brutal novel follows the intertwined destinies of two families—the Trasks and the Hamiltons—whose generations helplessly reenact the fall of Adam and Eve and the poisonous rivalry of Cain and Abel.. Adam Trask came to California from the East to farm and raise his family on the new rich land. But the birth of his twins, Cal and Aaron, brings his wife to the brink of madness, and Adam is left alone to raise his boys to manhood. One boy thrives nurtured by the love of all those around him; the other grows up in loneliness enveloped by a mysterious darkness.. First published in 1952, East of Eden is the work in which Steinbeck created his most mesmerizing characters and explored his most enduring themes: the mystery of identity, the inexplicability of love, and the murderous consequences of love's absence. A masterpiece of Steinbeck's later years, East of Eden is a powerful and vastly ambitious novel that is at once a family saga and a modern retelling of the Book of Genesis.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Historical",
+                "Literature",
+                "Novels",
+                "Literary Fiction"
+            ]
+        },
+        {
+            "title": "The Graveyard Book",
+            "authors": [
+                "Neil Gaiman",
+                "Dave McKean"
+            ],
+            "ranking": 4.14,
+            "ranking_count": 485989,
+            "abstract": "Nobody Owens, known to his friends as Bod, is a perfectly normal boy. Well, he would be perfectly normal if he didn't live in a graveyard, being raised and educated by ghosts, with a solitary guardian who belongs to neither the world of the living nor the world of the dead.. There are dangers and adventures for Bod in the graveyard: the strange and terrible menace of the Sleer; a gravestone entrance to a desert that leads to the city of ghouls; friendship with a witch, and so much more.. But it is in the land of the living that real danger lurks, for it is there that the man Jack lives and he has already killed Bod's family.. A deliciously dark masterwork by bestselling author Neil Gaiman, with illustrations by award-winning Dave McKean.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fantasy",
+                "Young Adult",
+                "Fiction",
+                "Horror",
+                "Childrens",
+                "Audiobook",
+                "Paranormal"
+            ]
+        },
+        {
+            "title": "The Gunslinger",
+            "authors": [
+                "Stephen King"
+            ],
+            "ranking": 3.94,
+            "ranking_count": 554663,
+            "abstract": "In the first book of this brilliant series, Stephen King introduces readers to one of his most enigmatic heroes, Roland of Gilead, The Last Gunslinger. He is a haunting figure, a loner on a spellbinding journey into good and evil. In his desolate world, which frighteningly mirrors our own, Roland pursues The Man in Black, encounters an alluring woman named Alice, and begins a friendship with the Kid from Earth called Jake. Both grippingly realistic and eerily dreamlike, The Gunslinger leaves readers eagerly awaiting the next chapter.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Fiction",
+                "Horror",
+                "Science Fiction",
+                "Westerns",
+                "Adventure",
+                "Audiobook",
+                "Science Fiction Fantasy",
+                "Thriller",
+                "Apocalyptic"
+            ]
+        },
+        {
+            "title": "Allegiant",
+            "authors": [
+                "Veronica Roth"
+            ],
+            "ranking": 3.61,
+            "ranking_count": 937290,
+            "abstract": "The faction-based society that Tris Prior once believed in is shattered - fractured by violence and power struggles and scarred by loss and betrayal. So when offered a chance to explore the world past the limits she's known, Tris is ready. Perhaps beyond the fence, she and Tobias will find a simple new life together, free from complicated lies, tangled loyalties, and painful memories.. But Tris's new reality is even more alarming than the one she left behind. Old discoveries are quickly rendered meaningless. Explosive new truths change the hearts of those she loves. And once again, Tris must battle to comprehend to complexities of human nature - and of herself - while facing impossible choices about courage, allegiance, sacrifice, and love.. Told from a riveting dual perspective,. ALLEGIANT. , by #1. New York Times. best-selling author Veronica Roth, brings the. DIVERGENT. series to a powerful conclusion while revealing the secrets of the dystopian world that has captivated millions of readers in. DIVERGENT. and. INSURGENT. .",
+            "part_of_series": true,
+            "genre_list": [
+                "Young Adult",
+                "Science Fiction",
+                "Fiction",
+                "Fantasy",
+                "Romance",
+                "Adventure",
+                "Audiobook",
+                "Apocalyptic"
+            ]
+        },
+        {
+            "title": "V for Vendetta",
+            "authors": [
+                "Alan Moore",
+                "David   Lloyd"
+            ],
+            "ranking": 4.25,
+            "ranking_count": 288964,
+            "abstract": "Remember, remember the fifth of November.... A frightening and powerful tale of the loss of freedom and identity in a chillingly believable totalitarian world,. V for Vendetta. stands as one of the highest achievements of the comics medium and a defining work for creators Alan Moore and David Lloyd.. Set in an imagined future England that has given itself over to fascism, this groundbreaking story captures both the suffocating nature of life in an authoritarian police state and the redemptive power of the human spirit which rebels against it. Crafted with sterling clarity and intelligence,. V for Vendetta. brings an unequaled depth of characterization and verisimilitude to its unflinching account of oppression and resistance.",
+            "part_of_series": true,
+            "genre_list": [
+                "Sequential Art",
+                "Fiction",
+                "Science Fiction",
+                "Graphic Novels Comics",
+                "Classics",
+                "Comics",
+                "Politics",
+                "Fantasy"
+            ]
+        },
+        {
+            "title": "The Witches",
+            "authors": [
+                "Roald Dahl",
+                "Quentin Blake"
+            ],
+            "ranking": 4.17,
+            "ranking_count": 358488,
+            "abstract": "This is not a fairy-tale. This is about. real witches. . Real witches don't ride around on broomsticks. They don't even wear black cloaks and hats. They are vile, cunning, detestable creatures who disguise themselves as nice, ordinary ladies. So how can you tell when you're face to face with one? Well, if you don't know yet you'd better find out quickly-because there's nothing a witch loathes quite as much as children and she'll wield all kinds of terrifying powers to get rid of them.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fantasy",
+                "Childrens",
+                "Fiction",
+                "Classics",
+                "Young Adult",
+                "Paranormal",
+                "Humor",
+                "Horror"
+            ]
+        },
+        {
+            "title": "Gulliver's Travels: Travels into Several Remote Nations of the World.",
+            "authors": [
+                "Jonathan Swift",
+                "Robert DeMaria Jr."
+            ],
+            "ranking": 3.58,
+            "ranking_count": 252277,
+            "abstract": "A wickedly clever satire uses comic inversions to offer telling insights into the nature of man and society. Nominated as one of America’s best-loved novels by PBS’s The Great American Read.. Gulliver's Travels describes the four voyages of Lemuel Gulliver, a ship's surgeon. In Lilliput he discovers a world in miniature; towering over the people and their city, he is able to view their society from the viewpoint of a god. However, in Brobdingnag, a land of giants, tiny Gulliver himself comes under observation, exhibited as a curiosity at markets and fairs. In Laputa, a flying island, he encounters a society of speculators and projectors who have lost all grip on everyday reality; while they plan and calculate, their country lies in ruins. Gulliver's final voyage takes him to the land of the Houyhnhnms, gentle horses whom he quickly comes to admire - in contrast to the Yahoos, filthy bestial creatures who bear a disturbing resemblance to humans. This text, based on the first edition of 1726, reproduces all the original illustrations and includes an introduction by Robert Demaria, Jr, which discusses the ways Gulliver's Travels has been interpreted since its first publication. Jonathan Swift (1667-1745) was born in Dublin.. For more than seventy years, Penguin has been the leading publisher of classic literature in the English-speaking world. With more than 1,700 titles, Penguin Classics represents a global bookshelf of the best works throughout history and across genres and disciplines. Readers trust the series to provide authoritative texts enhanced by introductions and notes by distinguished scholars and contemporary authors, as well as up-to-date translations by award-winning translators.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Fantasy",
+                "Adventure",
+                "Literature",
+                "Novels",
+                "Academic",
+                "European Literature"
+            ]
+        },
+        {
+            "title": "White Fang",
+            "authors": [
+                "Jack London"
+            ],
+            "ranking": 4.0,
+            "ranking_count": 170450,
+            "abstract": "White Fang is part dog and part wolf, and the lone survivor of his family. In his lonely world, he soon learns to follow the harsh law of the North--kill or be killed. But nothing in White Fang's life can prepare him for the cruel owner who turns him into a vicious killer. Will White Fang ever know the kindness of a gentle master?",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Adventure",
+                "Animals",
+                "Young Adult",
+                "Historical",
+                "Literature",
+                "Childrens",
+                "Novels"
+            ]
+        },
+        {
+            "title": "The Complete Novels",
+            "authors": [
+                "Jane Austen"
+            ],
+            "ranking": 4.57,
+            "ranking_count": 31423,
+            "abstract": "Few novelists have conveyed the subtleties and nuances of their own social milieu with the wit and insight of Jane Austen. Through her vivacious and spirited heroines and their circle, she paints vivid portraits of English middle-class life as the eighteenth century came to a close. Each of the novels is a love story and a story about marriage — marriage for love, for financial security, for social status. But they are not mere romances; ironic, comic and wise, they are masterly studies of the society Jane Austen observed. The seven novels in this volume contain some of the most brilliant, dazzling prose in the English language.. --back cover. Emma / Lady Susan / Mansfield Park / Northanger Abbey / Persuasion / Pride and Prejudice / Sense and Sensibility",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Romance",
+                "Historical",
+                "Literature",
+                "Novels",
+                "European Literature"
+            ]
+        },
+        {
+            "title": "The Complete Maus",
+            "authors": [
+                "Art Spiegelman"
+            ],
+            "ranking": 4.55,
+            "ranking_count": 173198,
+            "abstract": "On the occasion of the twenty-fifth anniversary of its first publication, here is the definitive edition of the book acclaimed as “the most affecting and successful narrative ever done about the Holocaust” (Wall Street Journal) and “the first masterpiece in comic book history” (The New Yorker).. The Pulitzer Prize-winning Maus tells the story of Vladek Spiegelman, a Jewish survivor of Hitler’s Europe, and his son, a cartoonist coming to terms with his father’s story. Maus approaches the unspeakable through the diminutive. Its form, the cartoon (the Nazis are cats, the Jews mice), shocks us out of any lingering sense of familiarity and succeeds in “drawing us closer to the bleak heart of the Holocaust” (The New York Times).. Maus is a haunting tale within a tale. Vladek’s harrowing story of survival is woven into the author’s account of his tortured relationship with his aging father. Against the backdrop of guilt brought by survival, they stage a normal life of small arguments and unhappy visits. This astonishing retelling of our century’s grisliest news is a story of survival, not only of Vladek but of the children who survive even the survivors. Maus studies the bloody pawprints of history and tracks its meaning for all of us.",
+            "part_of_series": true,
+            "genre_list": [
+                "Sequential Art",
+                "Nonfiction",
+                "History",
+                "Biography",
+                "Autobiography",
+                "Historical",
+                "War",
+                "World War II",
+                "Graphic Novels Comics"
+            ]
+        },
+        {
+            "title": "Love You Forever",
+            "authors": [
+                "Robert Munsch",
+                "Sheila McGraw"
+            ],
+            "ranking": 4.36,
+            "ranking_count": 221130,
+            "abstract": "An extraordinarily different story by Robert Munsch is a gentle affirmation of the love a parent feels for their child--forever. Sheila McGraw's soft and colorful pastels perfectly complement the sentiment of the book--one that will be read repeatedly for years.",
+            "part_of_series": false,
+            "genre_list": [
+                "Childrens",
+                "Fiction",
+                "Classics",
+                "Family",
+                "Love",
+                "Kids",
+                "Realistic Fiction",
+                "Cultural"
+            ]
+        },
+        {
+            "title": "Bel Canto",
+            "authors": [
+                "Ann Patchett"
+            ],
+            "ranking": 3.93,
+            "ranking_count": 259903,
+            "abstract": "Somewhere in South America, at the home of the country's vice president, a lavish birthday party is being held in honor of the powerful businessman Mr. Hosokawa. Roxane Coss, opera's most revered soprano, has mesmerized the international guests with her singing. It is a perfect evening—until a band of gun-wielding terrorists takes the entire party hostage. But what begins as a panicked, life-threatening scenario slowly evolves into something quite different, a moment of great beauty, as terrorists and hostages forge unexpected bonds and people from different continents become compatriots, intimate friends, and lovers.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fiction",
+                "Contemporary",
+                "Literary Fiction",
+                "Book Club",
+                "Novels",
+                "Music",
+                "Adult Fiction",
+                "Literature",
+                "Historical",
+                "Adult"
+            ]
+        },
+        {
+            "title": "The Martian",
+            "authors": [
+                "Andy Weir"
+            ],
+            "ranking": 4.4,
+            "ranking_count": 951478,
+            "abstract": "Six days ago, astronaut Mark Watney became one of the first people to walk on Mars.. Now, he’s sure he’ll be the first person to die there.. After a dust storm nearly kills him and forces his crew to evacuate while thinking him dead, Mark finds himself stranded and completely alone with no way to even signal Earth that he’s alive—and even if he could get word out, his supplies would be gone long before a rescue could arrive.. Chances are, though, he won’t have time to starve to death. The damaged machinery, unforgiving environment, or plain-old “human error” are much more likely to kill him first.. But Mark isn’t ready to give up yet. Drawing on his ingenuity, his engineering skills — and a relentless, dogged refusal to quit — he steadfastly confronts one seemingly insurmountable obstacle after the next. Will his resourcefulness be enough to overcome the impossible odds against him?",
+            "part_of_series": true,
+            "genre_list": [
+                "Science Fiction",
+                "Fiction",
+                "Audiobook",
+                "Adventure",
+                "Space",
+                "Adult",
+                "Science Fiction Fantasy",
+                "Thriller",
+                "Humor"
+            ]
+        },
+        {
+            "title": "A Portrait of the Artist as a Young Man",
+            "authors": [
+                "James Joyce",
+                "Seamus Deane"
+            ],
+            "ranking": 3.63,
+            "ranking_count": 137938,
+            "abstract": "The portrayal of Stephen Dedalus's Dublin childhood and youth, his quest for identity through art and his gradual emancipation from the claims of family, religion and Ireland itself, is also an oblique self-portrait of the young James Joyce and a universal testament to the artist's 'eternal imagination'. Both an insight into Joyce's life and childhood, and a unique work of modernist fiction,. A Portrait of the Artist as a Young Man. is a novel of sexual awakening, religious rebellion and the essential search for voice and meaning that every nascent artist must face in order to blossom fully into themselves.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Literature",
+                "European Literature",
+                "Cultural",
+                "Novels",
+                "Literary Fiction",
+                "Academic"
+            ]
+        },
+        {
+            "title": "Fifty Shades Freed",
+            "authors": [
+                "E.L. James"
+            ],
+            "ranking": 3.84,
+            "ranking_count": 779267,
+            "abstract": "When unworldly student Anastasia Steele first encountered the driven and dazzling young entrepreneur Christian Grey it sparked a sensual affair that changed both of their lives irrevocably. Shocked, intrigued, and, ultimately, repelled by Christian’s singular erotic tastes, Ana demands a deeper commitment. Determined to keep her, Christian agrees.. Now, Ana and Christian have it all—love, passion, intimacy, wealth, and a world of possibilities for their future. But Ana knows that loving her Fifty Shades will not be easy, and that being together will pose challenges that neither of them would anticipate. Ana must somehow learn to share Christian’s opulent lifestyle without sacrificing her own identity. And Christian must overcome his compulsion to control as he wrestles with the demons of a tormented past.. Just when it seems that their strength together will eclipse any obstacle, misfortune, malice, and fate conspire to make Ana’s deepest fears turn to reality.. This book is intended for mature audiences.",
+            "part_of_series": true,
+            "genre_list": [
+                "Romance",
+                "Adult Fiction",
+                "Fiction",
+                "Erotica",
+                "Adult",
+                "Contemporary",
+                "Womens Fiction"
+            ]
+        },
+        {
+            "title": "القرآن الكريم",
+            "authors": [
+                "Anonymous"
+            ],
+            "ranking": 4.37,
+            "ranking_count": 62378,
+            "abstract": "The Quran (English pronunciation: /kɔrˈɑːn/; Arabic: القرآن‎ al-qurʾān, IPA: [qurˈʔaːn], literally meaning the recitation), also transliterated Qur'an, Koran, Al-Coran, Coran, Kur'an, and Al-Qur'an, is the central religious text of Islam, which Muslims believe to be the verbatim word of God (Arabic: الله‎, Allah).. The Quran is composed of verses (Ayat) that make up 114 chapters (suras) of unequal length which are classified either as Meccan (المكية) or Medinan (المدنية) depending upon the place and time of their claimed revelation. Muslims believe the Quran to be verbally revealed through the angel Jibrīl (Gabriel) from God to Muhammad gradually over a period of approximately 23 years beginning on 22 December 609 CE, when Muhammad was 40, and concluding in 632 CE, the year of his death.. Muslims regard the Quran as the main miracle of Muhammad, the proof of his prophethood and the culmination of a series of divine messages that started with the messages revealed to Adam, regarded in Islam as the first prophet, and continued with Suhuf Ibrahim (Scrolls of Abraham), the Tawrat (Torah or Pentateuch) of Moses, the Zabur (Tehillim or Book of Psalms) of David, and the Injil (Gospel) of Jesus. The Quran assumes familiarity with major narratives recounted in Jewish and Christian scriptures, summarizing some, dwelling at length on others and in some cases presenting alternative accounts and interpretations of events. The Quran describes itself as a book of guidance, sometimes offering detailed accounts of specific historical events, and often emphasizing the moral significance of an event over its narrative sequence.",
+            "part_of_series": false,
+            "genre_list": [
+                "Religion",
+                "Nonfiction",
+                "Classics",
+                "Philosophy",
+                "Reference",
+                "Spirituality",
+                "History",
+                "Fantasy"
+            ]
+        },
+        {
+            "title": "Beowulf",
+            "authors": [
+                "Unknown",
+                "Seamus Heaney"
+            ],
+            "ranking": 3.46,
+            "ranking_count": 270150,
+            "abstract": "Beowulf is a major epic of Anglo-Saxon literature, probably composed between the first half of the seventh century and the end of the first millennium. The poem was inspired by Germanic and Anglo-Saxon oral tradition recounting the exploits of Beowulf, the hero who gave his name to the poem. Here, it's transcribed as a verse epic, onto which are grafted Christian additions.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Poetry",
+                "Fiction",
+                "Fantasy",
+                "Academic",
+                "Literature",
+                "Historical",
+                "Young Adult"
+            ]
+        },
+        {
+            "title": "Tuck Everlasting",
+            "authors": [
+                "Natalie Babbitt"
+            ],
+            "ranking": 3.89,
+            "ranking_count": 253650,
+            "abstract": "Doomed to - or blessed with - eternal life after drinking from a magic spring, the Tuck family wanders about trying to live as inconspicuously and comfortably as they can. When ten-year-old Winnie Foster stumbles on their secret, the Tucks take her home and explain why living forever at one age is less a blessing that it might seem. Complications arise when Winnie is followed by a stranger who wants to market the spring water for a fortune.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fantasy",
+                "Young Adult",
+                "Classics",
+                "Fiction",
+                "Childrens",
+                "Academic",
+                "Historical",
+                "Romance"
+            ]
+        },
+        {
+            "title": "American Psycho",
+            "authors": [
+                "Bret Easton Ellis"
+            ],
+            "ranking": 3.81,
+            "ranking_count": 265126,
+            "abstract": "Patrick Bateman is twenty-six and he works on Wall Street, he is handsome, sophisticated, charming and intelligent. He is also a psychopath. Taking us to head-on collision with America's greatest dream—and its worst nightmare—. American Psycho. is bleak, bitter, black comedy about a world we all recognise but do not wish to confront.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fiction",
+                "Horror",
+                "Classics",
+                "Thriller",
+                "Mystery",
+                "Contemporary",
+                "Novels",
+                "Literature"
+            ]
+        },
+        {
+            "title": "Shatter Me",
+            "authors": [
+                "Tahereh Mafi"
+            ],
+            "ranking": 3.92,
+            "ranking_count": 428918,
+            "abstract": "I have a curse. I have a gift. I am a monster. I'm more than human. My touch is lethal. My touch is power. I am their weapon. I will fight back. Juliette hasn't touched anyone in exactly 264 days.. The last time she did, it was an accident, but The Reestablishment locked her up for murder. No one knows why Juliette's touch is fatal. As long as she doesn't hurt anyone else, no one really cares. The world is too busy crumbling to pieces to pay attention to a 17-year-old girl. Diseases are destroying the population, food is hard to find, birds don't fly anymore, and the clouds are the wrong color.. The Reestablishment said their way was the only way to fix things, so they threw Juliette in a cell. Now so many people are dead that the survivors are whispering war—and The Reestablishment has changed its mind. Maybe Juliette is more than a tortured soul stuffed into a poisonous body. Maybe she's exactly what they need right now.. Juliette has to make a choice: Be a weapon. Or be a warrior.",
+            "part_of_series": true,
+            "genre_list": [
+                "Young Adult",
+                "Science Fiction",
+                "Fantasy",
+                "Romance",
+                "Fiction",
+                "Audiobook"
+            ]
+        },
+        {
+            "title": "Cold Mountain",
+            "authors": [
+                "Charles Frazier"
+            ],
+            "ranking": 3.87,
+            "ranking_count": 232664,
+            "abstract": "Cold Mountain. is a novel about a soldier’s perilous journey back to his beloved near the Civil War's end. At once a love story & a harrowing account of one man’s long walk home, Cold Mountain introduces a new talent in American literature.. Based on local history & family stories passed down by Frazier’s great-great-grandfather,. Cold Mountain. is the tale of a wounded Confederate soldier, Inman, who walks away from the ravages of the war & back home to his prewar sweetheart, Ada. His odyssey thru the devastated landscape of the soon-to-be-defeated South interweaves with Ada’s struggle to revive her father’s farm, with the help of an intrepid young drifter named Ruby. As their long-separated lives begin to converge at the close of the war, Inman & Ada confront the vastly transformed world they’ve been delivered.. Frazier reveals insight into human relations with the land & the dangers of solitude. He also shares with the great 19th century novelists a keen observation of a society undergoing change.. Cold Mountain. recreates a world gone by that speaks to our time.",
+            "part_of_series": false,
+            "genre_list": [
+                "Historical",
+                "Fiction",
+                "Romance",
+                "Military History",
+                "War",
+                "Classics",
+                "Novels",
+                "Literature",
+                "Literary Fiction"
+            ]
+        },
+        {
+            "title": "Dark Lover",
+            "authors": [
+                "J.R. Ward"
+            ],
+            "ranking": 4.17,
+            "ranking_count": 316848,
+            "abstract": "The only purebred vampire left on the planet and the leader of the Black Dagger Brotherhood, Wrath has a score to settle with the slayers who killed his parents centuries ago.. But when his most trusted fighter is killed -- orphaning a half-breed daughter unaware of her heritage or her fate -- Wrath must put down his dagger and usher the beautiful female into another world.. Racked by a restlessness in her body that wasn’t there before, Beth Randall is helpless against the dangerously sexy man who comes to her at night with shadows in his eyes. His tales of the Brotherhood and blood frighten her. Yet his touch ignites a dawning new hunger one that threatens to consume them both…",
+            "part_of_series": true,
+            "genre_list": [
+                "Romance",
+                "Fantasy",
+                "Paranormal",
+                "Adult",
+                "Fiction",
+                "Adult Fiction"
+            ]
+        },
+        {
+            "title": "Go Ask Alice",
+            "authors": [
+                "Beatrice Sparks",
+                "Anonymous"
+            ],
+            "ranking": 3.76,
+            "ranking_count": 254342,
+            "abstract": "It started when she was served a soft drink laced with LSD in a dangerous party game. Within months, she was hooked, trapped in a downward spiral that took her from her comfortable home and loving family to the mean streets of an unforgiving city. It was a journey that would rob her of her innocence, her youth -- and ultimately her life.. Read her diary.. Enter her world.. You will never forget her.",
+            "part_of_series": false,
+            "genre_list": [
+                "Young Adult",
+                "Fiction",
+                "Classics",
+                "Contemporary",
+                "Realistic Fiction",
+                "Health",
+                "Literature",
+                "Psychology"
+            ]
+        },
+        {
+            "title": "The Tell-Tale Heart and Other Writings",
+            "authors": [
+                "Edgar Allan Poe"
+            ],
+            "ranking": 4.18,
+            "ranking_count": 231935,
+            "abstract": "A collection featuring three classic horror stories, read by actor Earl Hammond: The Tell-Tale Heart, The Cask of Amontillado, and The Black Cat.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Horror",
+                "Fiction",
+                "Short Stories",
+                "Poetry",
+                "Mystery",
+                "Literature",
+                "Gothic",
+                "Academic",
+                "Fantasy"
+            ]
+        },
+        {
+            "title": "Eldest",
+            "authors": [
+                "Christopher Paolini",
+                "Ieva Venskevičiūtė"
+            ],
+            "ranking": 4.0,
+            "ranking_count": 396294,
+            "abstract": "Darkness falls…despair abounds…evil reigns…Eragon and his dragon, Saphira, have just saved the rebel state from destruction by the mighty forces of King Galbatorix, cruel ruler of the Empire. Now Eragon must travel to Ellesmera, land of the elves, for further training in the skills of the Dragon Rider. Ages 12+.. Darkness falls…despair abounds…evil reigns…. Eragon and his dragon, Saphira, have just saved the rebel state from destruction by the mighty forces of King Galbatorix, cruel ruler of the Empire. Now Eragon must travel to Ellesmera, land of the elves, for further training in the skills of the Dragon Rider: magic and swordsmanship. Soon he is on the journey of a lifetime, his eyes open to awe-inspring new places and people, his days filled with fresh adventure. But chaos and betrayal plague him at every turn, and nothing is what it seems. Before long, Eragon doesn't know whom he can trust.. Meanwhile, his cousin Roran must fight a new battle–one that might put Eragon in even graver danger.. Will the king's dark hand strangle all resistance? Eragon may not escape with even his life. . . .",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Young Adult",
+                "Fiction",
+                "Adventure",
+                "Science Fiction Fantasy"
+            ]
+        },
+        {
+            "title": "A Separate Peace",
+            "authors": [
+                "John Knowles",
+                "David Levithan"
+            ],
+            "ranking": 3.59,
+            "ranking_count": 203116,
+            "abstract": "An American classic and great bestseller for over thirty years,. A Separate Peace. is timeless in its description of adolescence during a period when the entire country was losing its innocence to the second world war.. Set at a boys boarding school in New England during the early years of World War II,. A Separate Peace. is a harrowing and luminous parable of the dark side of adolescence. Gene is a lonely, introverted intellectual. Phineas is a handsome, taunting, daredevil athlete. What happens between the two friends one summer, like the war itself, banishes the innocence of these boys and their world.. A bestseller for more than thirty years,. A Separate Peace. is John Knowles crowning achievement and an undisputed American classic.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Young Adult",
+                "Historical",
+                "Academic",
+                "Literature",
+                "Novels"
+            ]
+        },
+        {
+            "title": "Beautiful Creatures",
+            "authors": [
+                "Kami Garcia",
+                "Margaret Stohl"
+            ],
+            "ranking": 3.76,
+            "ranking_count": 573682,
+            "abstract": "Lena Duchannes is unlike anyone the small Southern town of Gatlin has ever seen, and she's struggling to conceal her power, and a curse that has haunted her family for generations. But even within the overgrown gardens, murky swamps and crumbling graveyards of the forgotten South, a secret cannot stay hidden forever.. Ethan Wate, who has been counting the months until he can escape from Gatlin, is haunted by dreams of a beautiful girl he has never met. When Lena moves into the town's oldest and most infamous plantation, Ethan is inexplicably drawn to her and determined to uncover the connection between them.. In a town with no surprises, one secret could change everything.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Young Adult",
+                "Romance",
+                "Fiction",
+                "Paranormal"
+            ]
+        },
+        {
+            "title": "As I Lay Dying",
+            "authors": [
+                "William Faulkner"
+            ],
+            "ranking": 3.72,
+            "ranking_count": 148910,
+            "abstract": "As I Lay Dying. is Faulkner’s harrowing account of the Bundren family’s odyssey across the Mississippi countryside to bury Addie, their wife and mother. Narrated in turn by each of the family members -- including Addie herself -- as well as others; the novel ranges in mood, from dark comedy to the deepest pathos. Considered one of the most influential novels in American fiction in structure, style, and drama,. As I Lay Dying. is a true 20th-century classic.. This edition reproduces the corrected text of. As I Lay Dying. as established in 1985 by Noel Polk.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Literature",
+                "Novels",
+                "Academic",
+                "Gothic",
+                "Literary Fiction",
+                "American"
+            ]
+        },
+        {
+            "title": "The Eye of the World",
+            "authors": [
+                "Robert Jordan"
+            ],
+            "ranking": 4.18,
+            "ranking_count": 463414,
+            "abstract": "The Wheel of Time turns and Ages come and pass. What was, what will be, and what is, may yet fall under the Shadow.. Let the Dragon ride again on the winds of time.. The Wheel of Time turns and Ages come and go, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth returns again. In the Third Age, an Age of Prophecy, the World and Time themselves hang in the balance. What was, what will be, and what is, may yet fall under the Shadow.. When The Two Rivers is attacked by Trollocs-a savage tribe of half-men, half-beasts- five villagers flee that night into a world they barely imagined, with new dangers waiting in the shadows and in the light.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fiction",
+                "Fantasy",
+                "Science Fiction Fantasy",
+                "Adventure",
+                "Audiobook",
+                "Adult",
+                "Epic",
+                "Science Fiction"
+            ]
+        },
+        {
+            "title": "Hamlet",
+            "authors": [
+                "William Shakespeare",
+                "Harold Bloom",
+                "Rex Gibson"
+            ],
+            "ranking": 4.03,
+            "ranking_count": 826366,
+            "abstract": "Among Shakespeare's plays, Hamlet is considered by many his masterpiece. Among actors, the role of Hamlet, Prince of Denmark, is considered the jewel in the crown of a triumphant theatrical career. Now Kenneth Branagh plays the leading role and co-directs a brillant ensemble performance. Three generations of legendary leading actors, many of whom first assembled for the Oscar-winning film Henry V, gather here to perform the rarely heard complete version of the play. This clear, subtly nuanced, stunning dramatization, presented by The Renaissance Theatre Company in association with Bbc Broadcasting, features such luminaries as Sir John Gielgud, Derek Jacobi, Emma Thompson and Christopher Ravenscroft. It combines a full cast with stirring music and sound effects to bring this magnificent Shakespearen classic vividly to life. Revealing new riches with each listening, this production of Hamlet is an invaluable aid for students, teachers and all true lovers of Shakespeare - a recording to be treasured for decades to come.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Plays",
+                "Fiction",
+                "Drama",
+                "Academic",
+                "Literature",
+                "Poetry",
+                "Young Adult"
+            ]
+        },
+        {
+            "title": "A Child Called \"It\"",
+            "authors": [
+                "Dave Pelzer"
+            ],
+            "ranking": 4.11,
+            "ranking_count": 404191,
+            "abstract": "Also see: Alternate Cover Editions for this ISBN [ACE]. ACE #1. This book chronicles the unforgettable account of one of the most severe child abuse cases in California history. It is the story of Dave Pelzer, who was brutally beaten and starved by his emotionally unstable, alcoholic mother: a mother who played tortuous, unpredictable games—games that left him nearly dead. He had to learn how to play his mother's games in order to survive because she no longer considered him a son, but a slave; and no longer a boy, but an it. Dave's bed was an old army cot in the basement, and his clothes were torn and raunchy. When his mother allowed him the luxury of food, it was nothing more than spoiled scraps that even the dogs refused to eat. The outside world knew nothing of his living nightmare. He had nothing or no one to turn to, but his dreams kept him alive—dreams of someone taking care of him, loving him and calling him their son.",
+            "part_of_series": true,
+            "genre_list": [
+                "Nonfiction",
+                "Autobiography",
+                "Biography",
+                "Psychology",
+                "Sociology",
+                "Adult",
+                "Biography Memoir",
+                "Crime",
+                "True Story"
+            ]
+        },
+        {
+            "title": "زندگی مه آلود پریا",
+            "authors": [
+                "سید مرتضی مصطفوی"
+            ],
+            "ranking": 3.68,
+            "ranking_count": 754,
+            "abstract": "Mystical story. The internal revolution of a woman and the fight against her past. در مورد زنی موفق و کاریزماتیک که مدیریت مهمانسرای بزرگ سنتی را عهده دار است مهمانسرای که در جذب مهمانهای ایرانی و خارجی رتبه اول را داراست پریا گرچه از استعداد و نبوغ بالایی برخوردار است بطوری که دیگران به موفقیت او رشک می بندند اما در گذشته اشتباهی بزرگی را مرتکب شده که جرات ابراز آن را به دیگران و نزدیکان خود ندارد در روند قصه کم کم گذشته او مانند کابوسی بر روح نا آرامش فرو آمده و به شدت آزارش می دهد و با مبتلا شدن به بیماری؛ عذاب وجدان او تشدید شده و; برای عبور از این بحران; با مشکلات فراوانی مواجه می شود",
+            "part_of_series": false,
+            "genre_list": [
+                "Fiction"
+            ]
+        },
+        {
+            "title": "Brisingr",
+            "authors": [
+                "Christopher Paolini"
+            ],
+            "ranking": 4.06,
+            "ranking_count": 334240,
+            "abstract": "Oaths sworn... loyalties tested... forces collide.. It's been only months since Eragon first uttered brisingr, an ancient language term for fire. Since then, he's not only learned to create magic with words — he's been challenged to his very core. Following the colossal battle against the Empires warriors on the Burning Plains, Eragon and his dragon, Saphira, have narrowly escaped with their lives. Still, there is more adventure at hand for the Rider and his dragon, as Eragon finds himself bound by a tangle of promises he may not be able to keep.. First is Eragon's oath to his cousin, Roran: to help rescue Roran's beloved from King Galbatorix's clutches. But Eragon owes his loyalty to others, too. The Varden are in desperate need of his talents and strength — as are the elves and dwarves. When unrest claims the rebels and danger strikes from every corner, Eragon must make choices — choices that will take him across the Empire and beyond, choices that may lead to unimagined sacrifice.. Eragon is the greatest hope to rid the land of tyranny. Can this once simple farm boy unite the rebel forces and defeat the king?",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Young Adult",
+                "Fiction",
+                "Adventure",
+                "Science Fiction Fantasy"
+            ]
+        },
+        {
+            "title": "Steppenwolf",
+            "authors": [
+                "Hermann Hesse",
+                "Basil Creighton"
+            ],
+            "ranking": 4.13,
+            "ranking_count": 156732,
+            "abstract": "Steppenwolf. is a poetical self-portrait of a man who felt himself to be half-human and half-wolf. This Faust-like and magical story is evidence of Hesse's searching philosophy and extraordinary sense of humanity as he tells of the humanization of a middle-aged misanthrope. Yet his novel can also be seen as a plea for rigorous self-examination and an indictment of the intellectual hypocrisy of the period. As Hesse himself remarked, Of all my books. Steppenwolf. is the one that was more often and more violently misunderstood than any of the others.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fiction",
+                "Classics",
+                "Philosophy",
+                "European Literature",
+                "Literature",
+                "Novels",
+                "Cultural",
+                "Psychology",
+                "Literary Fiction"
+            ]
+        },
+        {
+            "title": "The Amazing Adventures of Kavalier & Clay",
+            "authors": [
+                "Michael Chabon"
+            ],
+            "ranking": 4.18,
+            "ranking_count": 193041,
+            "abstract": "Joe Kavalier, a young Jewish artist who has also been trained in the art of Houdini-esque escape, has just smuggled himself out of Nazi-invaded Prague and landed in New York City. His Brooklyn cousin Sammy Clay is looking for a partner to create heroes, stories, and art for the latest novelty to hit America - the comic book. Drawing on their own fears and dreams, Kavalier and Clay create the Escapist, the Monitor, and Luna Moth, inspired by the beautiful Rosa Saks, who will become linked by powerful ties to both men. With exhilarating style and grace, Michael Chabon tells an unforgettable story about American romance and possibility.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fiction",
+                "Historical",
+                "Novels",
+                "Literature",
+                "Literary Fiction",
+                "Contemporary",
+                "Sequential Art",
+                "New York"
+            ]
+        },
+        {
+            "title": "Mansfield Park",
+            "authors": [
+                "Jane Austen",
+                "Kathryn Sutherland"
+            ],
+            "ranking": 3.86,
+            "ranking_count": 314048,
+            "abstract": "Taken from the poverty of her parents' home in Portsmouth, Fanny Price is brought up with her rich cousins at Mansfield Park, acutely aware of her humble rank and with her cousin Edmund as her sole ally. During her uncle's absence in Antigua, the Crawford's arrive in the neighbourhood bringing with them the glamour of London life and a reckless taste for flirtation. Mansfield Park is considered Jane Austen's first mature work and, with its quiet heroine and subtle examination of social position and moral integrity, one of her most profound.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Romance",
+                "Historical",
+                "Literature",
+                "European Literature",
+                "Audiobook"
+            ]
+        },
+        {
+            "title": "Obsidian",
+            "authors": [
+                "Jennifer L. Armentrout"
+            ],
+            "ranking": 4.15,
+            "ranking_count": 262191,
+            "abstract": "Starting over sucks.. When we moved to West Virginia right before my senior year, I’d pretty much resigned myself to thick accents, dodgy internet access, and a whole lot of boring… until I spotted my hot neighbor, with his looming height and eerie green eyes. Things were looking up.. And then he opened his mouth.. Daemon is infuriating. Arrogant. Stab-worthy. We do not get along. At all. But when a stranger attacks me and Daemon literally freezes time with a wave of his hand, well, something… unexpected happens.. The hot alien living next door marks me.. You heard me. Alien. Turns out Daemon and his sister have a galaxy of enemies wanting to steal their abilities, and Daemon’s touch has me lit up like the Vegas Strip. The only way I’m getting out of this alive is by sticking close to Daemon until my alien mojo fades.. If I don’t kill him first, that is.",
+            "part_of_series": true,
+            "genre_list": [
+                "Young Adult",
+                "Fantasy",
+                "Romance",
+                "Science Fiction",
+                "Fiction"
+            ]
+        },
+        {
+            "title": "Crooked Kingdom",
+            "authors": [
+                "Leigh Bardugo"
+            ],
+            "ranking": 4.61,
+            "ranking_count": 427959,
+            "abstract": "Welcome to the world of the Grisha.. Kaz Brekker and his crew of deadly outcasts have just pulled off a heist so daring even they didn't think they'd survive. But instead of divvying up a fat reward, they're right back to fighting for their lives.. Double-crossed and badly weakened, the crew is low on resources, allies, and hope. As powerful forces from around the world descend on Ketterdam to root out the secrets of the dangerous drug known as jurda parem, old rivals and new enemies emerge to challenge Kaz's cunning and test the team's fragile loyalties.. A war will be waged on the city's dark and twisting streets - a battle for revenge and redemption that will decide the fate of the Grisha world.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Young Adult",
+                "Fiction",
+                "LGBT",
+                "Romance",
+                "Adventure",
+                "Audiobook"
+            ]
+        },
+        {
+            "title": "'Salem's Lot",
+            "authors": [
+                "Stephen King"
+            ],
+            "ranking": 4.04,
+            "ranking_count": 381764,
+            "abstract": "Thousands of miles away from the small township of 'Salem's Lot, two terrified people, a man and a boy, still share the secrets of those clapboard houses and tree-lined streets. They must return to 'Salem's Lot for a final confrontation with the unspeakable evil that lives on in the town.",
+            "part_of_series": false,
+            "genre_list": [
+                "Horror",
+                "Fiction",
+                "Paranormal",
+                "Fantasy",
+                "Thriller",
+                "Audiobook",
+                "Adult",
+                "Mystery"
+            ]
+        },
+        {
+            "title": "Harry Potter Series Box Set",
+            "authors": [
+                "J.K. Rowling"
+            ],
+            "ranking": 4.73,
+            "ranking_count": 269127,
+            "abstract": "Over 4000 pages of Harry Potter and his world, including all 7 books.. All seven eBooks in the multi-award winning, internationally bestselling Harry Potter series, available as one download with stunning cover art by Olly Moss. Enjoy the stories that have captured the imagination of millions worldwide.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Young Adult",
+                "Fiction",
+                "Childrens",
+                "Adventure",
+                "Classics",
+                "Science Fiction Fantasy",
+                "Audiobook"
+            ]
+        },
+        {
+            "title": "The Hunchback of Notre-Dame",
+            "authors": [
+                "Victor Hugo",
+                "Walter J. Cobb"
+            ],
+            "ranking": 4.0,
+            "ranking_count": 185018,
+            "abstract": "This extraordinary historical novel, set in Medieval Paris under the twin towers of its greatest structure and supreme symbol, the cathedral of Notre-Dame, is the haunting drama of Quasimodo, the hunchback; Esmeralda, the gypsy dancer; and Claude Frollo, the priest tortured by the specter of his own damnation. Shaped by a profound sense of tragic irony, it is a work that gives full play to Victor Hugo's brilliant historical imagination and his remarkable powers of description.",
+            "part_of_series": false,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Historical",
+                "Cultural",
+                "Literature",
+                "European Literature",
+                "Gothic",
+                "Romance",
+                "Novels"
+            ]
+        },
+        {
+            "title": "The Martian Chronicles",
+            "authors": [
+                "Ray Bradbury"
+            ],
+            "ranking": 4.15,
+            "ranking_count": 234252,
+            "abstract": "The strange and wonderful tale of man’s experiences on Mars, filled with intense images and astonishing visions. Now part of the Voyager Classics collection.. The Martian Chronicles tells the story of humanity’s repeated attempts to colonize the red planet. The first men were few. Most succumbed to a disease they called the Great Loneliness when they saw their home planet dwindle to the size of a fist. They felt they had never been born. Those few that survived found no welcome on Mars. The shape-changing Martians thought they were native lunatics and duly locked them up.. But more rockets arrived from Earth, and more, piercing the hallucinations projected by the Martians. People brought their old prejudices with them – and their desires and fantasies, tainted dreams. These were soon inhabited by the strange native beings, with their caged flowers and birds of flame.. Contents:. Rocket Summer. Ylla. The Summer Night. The Earth Men. The Taxpayer. The Third Expedition. -And the Moon Be Still As Bright. The Settlers. The Green Morning. The Locusts. Night Meeting. The Shore. Interim. The Musicians. Way in the Middle of the Air. The Naming of Names. Usher II. The Old Ones. The Martian. The Luggage Store. The Off Season. The Watchers. The Silent Towns. The Long Years. There Will Come Soft Rains. The Million Year Picnic",
+            "part_of_series": false,
+            "genre_list": [
+                "Science Fiction",
+                "Fiction",
+                "Classics",
+                "Short Stories",
+                "Fantasy",
+                "Science Fiction Fantasy",
+                "Audiobook",
+                "Literature",
+                "Space"
+            ]
+        },
+        {
+            "title": "Cloud Atlas",
+            "authors": [
+                "David Mitchell"
+            ],
+            "ranking": 4.0,
+            "ranking_count": 233272,
+            "abstract": "A postmodern visionary who is also a master of styles of genres, David Mitchell combines flat-out adventure, a Nabokovian lore of puzzles, a keen eye for character, and a taste for mind-bending philosophical and scientific speculation in the tradition of Umberto Eco, Haruki Murakami, and Philip K. Dick. The result is brilliantly original fiction as profund as it is playful. Now in his new novel, David Mitchell explores with daring artistry fundamental questions of reality and identity.. Cloud Atlas. begins in 1850 with Adam Ewing, an American notary voyaging from the Chatham Isles to his home in California. Along the way, Ewing is befriended by a physician, Dr. Goose, who begins to treat him for a rare species of brain parasite. . . .. Abruptly, the action jumps to Belgium in 1931, where Robert Frobisher, a disinherited bisexual composer, contrives his way into the household of an infirm maestro who has a beguiling wife and a nubile daughter. . . . From there we jump to the West Coast in the 1970s and a troubled reporter named Luisa Rey, who stumbles upon a web of corporate greed and murder that threatens to claim her life. . . . And onward, with dazzling virtuosity, to an inglorious present-day England; to a Korean superstate of the near future where neocapitalism has run amok; and, finally, to a postapocalyptic Iron Age Hawaii in the last days of history.. But the story doesn’t end even there. The narrative then boomerangs back through centuries and space, returning by the same route, in reverse, to its starting point. Along the way, Mitchell reveals how his disparate characters connect, how their fates intertwine, and how their souls drift across time like clouds across the sky.. As wild as a videogame, as mysterious as a Zen koan,. Cloud Atlas. is an unforgettable tour de force that, like its incomparable author, has transcended its cult classic status to become a worldwide phenomenon.",
+            "part_of_series": false,
+            "genre_list": [
+                "Fiction",
+                "Science Fiction",
+                "Fantasy",
+                "Historical",
+                "Contemporary",
+                "Literary Fiction",
+                "Novels",
+                "Literature"
+            ]
+        },
+        {
+            "title": "Tao Te Ching",
+            "authors": [
+                "Lao Tzu",
+                "Gia-Fu Feng",
+                "Jane English",
+                "Toinette Lippe",
+                "Jacob Needleman"
+            ],
+            "ranking": 4.28,
+            "ranking_count": 136012,
+            "abstract": "A lucid translation of the well-known Taoist classic by a leading scholar-now in a Shambhala Pocket Library edition.. Written more than two thousand years ago, the. Tao Teh Ching. , or -The Classic of the Way and Its Virtue, - is one of the true classics of the world of spiritual literature.. Traditionally attributed to the legendary -Old Master, - Lao Tzu, the. Tao Teh Ching. teaches that the qualities of the enlightened sage or ideal ruler are identical with those of the perfected individual.. Today, Lao Tzu's words are as useful in mastering the arts of leadership in business and politics as they are in developing a sense of balance and harmony in everyday life. To follow the. Tao. or Way of all things and realize their true nature is to embody humility, spontaneity, and generosity.. John C. H. Wu has done a remarkable job of rendering this subtle text into English while retaining the freshness and depth of the original. A jurist and scholar, Dr. Wu was a recognized authority on Taoism and the translator of several Taoist and Zen texts and of Chinese poetry.. This book is part of the Shambhala Pocket Library series. The Shambhala Pocket Library is a collection of short, portable teachings from notable figures across religious traditions and classic texts.. The covers in this series are rendered by Colorado artist Robert Spellman. The books in this collection distill the wisdom and heart of the work Shambhala Publications has published over 50 years into a compact format that is collectible, reader-friendly, and applicable to everyday life.",
+            "part_of_series": false,
+            "genre_list": [
+                "Philosophy",
+                "Nonfiction",
+                "Religion",
+                "Classics",
+                "Spirituality",
+                "Poetry",
+                "Cultural",
+                "Self Help"
+            ]
+        },
+        {
+            "title": "Robinson Crusoe",
+            "authors": [
+                "Daniel Defoe",
+                "Virginia Woolf",
+                "Franciszek Mirandola",
+                "Samuli Suomalainen"
+            ],
+            "ranking": 3.68,
+            "ranking_count": 273997,
+            "abstract": "Daniel Defoe relates the tale of an English sailor marooned on a desert island for nearly three decades. An ordinary man struggling to survive in extraordinary circumstances, Robinson Crusoe wrestles with fate and the nature of God. This edition features maps.",
+            "part_of_series": true,
+            "genre_list": [
+                "Classics",
+                "Fiction",
+                "Adventure",
+                "Literature",
+                "Historical",
+                "Novels",
+                "Academic",
+                "European Literature"
+            ]
+        },
+        {
+            "title": "A Court of Thorns and Roses",
+            "authors": [
+                "Sarah J. Maas"
+            ],
+            "ranking": 4.19,
+            "ranking_count": 947575,
+            "abstract": "Feyre's survival rests upon her ability to hunt and kill – the forest where she lives is a cold, bleak place in the long winter months. So when she spots a deer in the forest being pursued by a wolf, she cannot resist fighting it for the flesh. But to do so, she must kill the predator and killing something so precious comes at a price .... Dragged to a magical kingdom for the murder of a faerie, Feyre discovers that her captor, his face obscured by a jewelled mask, is hiding far more than his piercing green eyes would suggest. Feyre's presence at the court is closely guarded, and as she begins to learn why, her feelings for him turn from hostility to passion and the faerie lands become an even more dangerous place. Feyre must fight to break an ancient curse, or she will lose him forever.",
+            "part_of_series": true,
+            "genre_list": [
+                "Fantasy",
+                "Romance",
+                "Young Adult",
+                "New Adult",
+                "Fiction",
+                "Retellings",
+                "Fairies"
+            ]
+        },
+        {
+            "title": "Dear John",
+            "authors": [
+                "Nicholas Sparks"
+            ],
+            "ranking": 4.04,
+            "ranking_count": 570710,
+            "abstract": "An angry rebel, John dropped out of school and enlisted in the Army, not knowing what else to do with his life--until he meets the girl of his dreams, Savannah. Their mutual attraction quickly grows into the kind of love that leaves Savannah waiting for John to finish his tour of duty, and John wanting to settle down with the woman who has captured his heart.. But 9/11 changes everything. John feels it is his duty to re-enlist. And sadly, the long separation finds Savannah falling in love with someone else.. Dear John. , the letter read... and with those two words, a heart was broken and two lives were changed forever. Returning home, John must come to grips with the fact that Savannah, now married, is still his true love—and face the hardest decision of his life.",
+            "part_of_series": false,
+            "genre_list": [
+                "Romance",
+                "Fiction",
+                "Womens Fiction",
+                "Contemporary",
+                "Adult",
+                "Adult Fiction",
+                "Young Adult",
+                "Love",
+                "Drama"
+            ]
+        },
+        {
+            "title": "Stargirl",
+            "authors": [
+                "Jerry Spinelli"
+            ],
+            "ranking": 3.77,
+            "ranking_count": 314320,
+            "abstract": "A celebration of nonconformity; a tense, emotional tale about the fleeting, cruel nature of popularity--and the thrill and inspiration of first love. Ages 12+. Leo Borlock follows the unspoken rule at Mica Area High School: don't stand out--under any circumstances! Then Stargirl arrives at Mica High and everything changes--for Leo and for the entire school. After 15 years of home schooling, Stargirl bursts into tenth grade in an explosion of color and a clatter of ukulele music, enchanting the Mica student body.. But the delicate scales of popularity suddenly shift, and Stargirl is shunned for everything that makes her different. Somewhere in the midst of Stargirl's arrival and rise and fall, normal Leo Borlock has tumbled into love with her.. In a celebration of nonconformity, Jerry Spinelli weaves a tense, emotional tale about the fleeting, cruel nature of popularity--and the thrill and inspiration of first love.",
+            "part_of_series": true,
+            "genre_list": [
+                "Young Adult",
+                "Fiction",
+                "Contemporary",
+                "Realistic Fiction",
+                "Romance",
+                "Childrens",
+                "Academic"
+            ]
+        },
+        {
+            "title": "The Last Song",
+            "authors": [
+                "Nicholas Sparks"
+            ],
+            "ranking": 4.15,
+            "ranking_count": 530805,
+            "abstract": "Alternate Cover Edition can be found. here. Seventeen-year-old Veronica 'Ronnie' Miller’s life was turned upside-down when her parents divorced and her father moved from New York City to Wilmington, North Carolina. Three years later, she remains angry and alienated from her parents, especially her father . . . until her mother decides it would be in everyone’s best interest if she spent the summer in Wilmington with him. Ronnie’s father, a former concert pianist and teacher, is living a quiet life in the beach town, immersed in creating a work of art that will become the centerpiece of a local church.. The tale that unfolds is an unforgettable story about love in its myriad forms - first love, the love between parents and children - that demonstrates, as only a Nicholas Sparks novel can, the many ways that deeply felt relationships can break our hearts . . . and heal them.",
+            "part_of_series": false,
+            "genre_list": [
+                "Romance",
+                "Fiction",
+                "Young Adult",
+                "Contemporary",
+                "Womens Fiction",
+                "Adult",
+                "Realistic Fiction",
+                "Adult Fiction",
+                "Drama",
+                "Love"
+            ]
+        },
+        {
+            "title": "All the Light We Cannot See",
+            "authors": [
+                "Anthony Doerr"
+            ],
+            "ranking": 4.32,
+            "ranking_count": 1276833,
+            "abstract": "Marie-Laure lives in Paris near the Museum of Natural History, where her father works. When she is twelve, the Nazis occupy Paris and father and daughter flee to the walled citadel of Saint-Malo, where Marie-Laure’s reclusive great uncle lives in a tall house by the sea. With them they carry what might be the museum’s most valuable and dangerous jewel.. In a mining town in Germany, Werner Pfennig, an orphan, grows up with his younger sister, enchanted by a crude radio they find that brings them news and stories from places they have never seen or imagined. Werner becomes an expert at building and fixing these crucial new instruments and is enlisted to use his talent to track down the resistance. Deftly interweaving the lives of Marie-Laure and Werner, Doerr illuminates the ways, against all odds, people try to be good to one another.. From the highly acclaimed, multiple award-winning Anthony Doerr, the stunningly beautiful instant. New York Times. bestseller about a blind French girl and a German boy whose paths collide in occupied France as both try to survive the devastation of World War II.. An alternate cover for this ISBN can be found. here",
+            "part_of_series": false,
+            "genre_list": [
+                "Historical",
+                "Fiction",
+                "War",
+                "Audiobook",
+                "Adult",
+                "Cultural",
+                "Book Club",
+                "Adult Fiction"
+            ]
+        }
+    ]
+}
