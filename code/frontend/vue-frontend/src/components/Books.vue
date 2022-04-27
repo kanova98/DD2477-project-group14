@@ -1,12 +1,14 @@
 <template>
-    <div :key="book.title" v-for="book in books">
-        <Book :book="book" />
+    <div class="container">
+        <h1>Which books have you read?</h1>
+        <div :key="ReadBook.title" v-for="ReadBook in books">
+            <ReadBook @mark-read="$emit('mark-read', ReadBook.title)" :ReadBook="ReadBook" />
+        </div>
     </div>
-    
 </template>
 
 <script>
-import Book from './Book.vue'
+import ReadBook from './ReadBook.vue'
 
 export default {
     name: 'Books',
@@ -16,8 +18,12 @@ export default {
         }
     },
     components: {
-        Book,
-    }
+        ReadBook,
+    },
+    emits: ['mark-read']
      
 }
 </script>
+
+<style>
+</style>

@@ -1,7 +1,7 @@
 <template>
     <header>
         <h1> {{title}} </h1>
-        <Button />
+        
     </header>
 </template>
 
@@ -16,9 +16,6 @@ export default {
             required: true
         }
     },
-    components: {
-        Button,
-    }
 }
 </script>
 

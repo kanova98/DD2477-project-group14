@@ -1,6 +1,6 @@
 <template>
     <button @click="recommend()" class="btn" >
-        Get Recommendation
+        {{title}}
     </button>
 </template>
 
@@ -13,6 +13,12 @@ export default {
         recommend() {
             console.log("Clicked the button")
         }
-    }
+    },
+    props: {
+        title: {
+            type: String,
+            required: true
+        }
+    },
 }
 </script>
