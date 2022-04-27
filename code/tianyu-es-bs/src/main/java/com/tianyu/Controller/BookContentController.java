@@ -1,11 +1,9 @@
 package com.tianyu.Controller;
 
+import com.alibaba.fastjson.JSONObject;
 import com.tianyu.service.TestContentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -37,10 +35,20 @@ public class BookContentController {
     /*
      * TODO Should return recommended books for the current backend user as Json objects
      */
+    @CrossOrigin(origins = "http://localhost:8080")
     @GetMapping("/books/recommendations")
-    public String getRecommendedBooks(){
+    public String getRecommendedBooks() {
 
-        return Null;
+        String jsonStr = "[{\"title\": \"A Prayer for Owen Meany\",\n" +
+                "            \"authors\": [\n" +
+                "                \"John Irving\"\n" +
+                "            ],\n" +
+                "            \"ranking\": 4.24,\n" +
+                "            \"ranking_count\": 301234,\n" +
+                "            \"abstract\": \"Eleven-year-old Owen Meany, playing in a Little League baseball game in Gravesend, New Hampshire, hits a foul ball and kills his best friend's mother. Owen doesn't believe in accidents; he believes he is God's instrument. What happens to Owen after that 1953 foul is both extraordinary and terrifying. At moments a comic, self-deluded victim, but in the end the principal, tragic actor in a divine plan, Owen Meany is the most heartbreaking hero John Irving has yet created.\"}]";
+
+
+        return jsonStr;
     }
 
 }

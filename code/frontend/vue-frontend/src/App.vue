@@ -1,24 +1,88 @@
 <template>
     <div class ="container">
       <Header title= "Book Recommendation Engine" />
-      <Books :books = "books" />
+      <Button @click="showRecommendations" title = "Get Recommendations"/>
+      <Button @click="showSearch" title = "Search for read books"/>
+      <Search-for-books v-if="inSearchBooks" @search-books="getBooksFromBackend"/>
     </div>
+    <Books v-if="inSearchBooks" @mark-read="markAndDelete" :books = "books" />
+    <Recommended-books v-if="inRecommendations" :books = "recommendedBooks" />
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import Books from './components/Books.vue'
+import Button from './components/Button.vue'
+import SearchForBooks from './components/SearchForBooks.vue'
+import RecommendedBooks from './components/RecommendedBooks.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Books,
+    Button,
+    SearchForBooks,
+    RecommendedBooks
   },
   data() {
     return {
-      books: []
+      books: [],
+      recommendedBooks: [],
+      inSearchBooks: false,
+      inRecommendations: false
     }
+  },
+  methods: {
+    async markAndDelete(title){
+      const response = await fetch(`http://localhost:9090/read/${title}`, {
+        mode: 'no-cors',
+        method: 'POST',
+  
+      })
+      
+      this.books = this.books.filter(book => book.title !== title)
+
+      "Want to send data to backend here as well"
+    },
+    showSearch(){
+      this.inRecommendations = false
+      this.inSearchBooks = true 
+    },
+    showRecommendations(){
+      this.inSearchBooks = false
+      this.inRecommendations = true
+      this.getRecommendations()
+
+    },
+    /* 
+    * Should return a list of books from the backend
+    */
+    async getRecommendations(){
+      const response = await fetch(`http://localhost:9090/books/recommendations`, {
+        method: 'GET',
+      }).then(response => response.text())
+      .then(data => {
+        console.log(data)
+        this.recommendedBooks = JSON.parse(data)
+      })
+      
+      //this.recommendedBooks = data
+      
+      console.log("hi")
+      //return data
+    },
+    async getBooksFromBackend(search){
+      const response = await fetch(`http://localhost:9090/books/${search}`)
+       
+      const data = await response.date()
+      console.log(data)
+      return data
+      
+      
+    },
+
+
   },
   created(){
     this.books = [
@@ -82,9 +146,19 @@ export default {
                 "Novels"
             ]
         },
-    ]     
-  }
-
+    ]
+    this.recommendedBooks = [
+      {
+            "title": "Great book",
+            "authors": [
+                "group 14"
+            ],
+            "ranking": 5,
+            "ranking_count": 1000000000,
+            "abstract": "test book book test"
+      },
+    ]
+  } 
 }
 </script>
 
