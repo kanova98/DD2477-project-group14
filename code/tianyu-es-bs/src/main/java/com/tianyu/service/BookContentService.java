@@ -35,7 +35,7 @@ public class BookContentService {
         ArrayList<BookContent> bookContentArrayList = new ArrayList<BookContent>();
 
         for (int f = 1 ; f <= 10 ; f++ ){
-            String filename = readJsonFile("D:\\DD2477-project-group14-main\\Data\\dataset" + String.valueOf(f) + ".json");
+            String filename = readJsonFile("/Users/filipkana/Documents/Skolarbete/DD2477/irProject/Data/dataset" + String.valueOf(f) + ".json");
             JSONObject jobj = JSON.parseObject(filename);
 
             int bookListLength = jobj.getJSONArray("books").size();
@@ -106,6 +106,9 @@ public class BookContentService {
         searchRequest.source(sourceBuilder);
         SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
 
+        if(searchResponse.getHits().getHits().length == 0){
+            return null;
+        }
         Map<String, Object> sourceAsMap = searchResponse.getHits().getHits()[0].getSourceAsMap();
         BookContent searchResult = new BookContent();
 

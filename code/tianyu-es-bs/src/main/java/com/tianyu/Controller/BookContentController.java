@@ -1,6 +1,8 @@
 package com.tianyu.Controller;
 
 import com.alibaba.fastjson.JSONObject;
+import com.tianyu.service.BookContentService;
+import com.tianyu.pojo.BookContent;
 import com.tianyu.service.TestContentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -25,12 +27,17 @@ public class BookContentController {
      * Should return the books found using the query string "searched" as JSON objects
      * TODO should not return a string
      */
+    @CrossOrigin(origins = "http://localhost:8080")
     @GetMapping("/books/{searched}")
-    public String findSearchedBooks(@PathVariable("searched") String searched) throws IOException {
-
+    public BookContent findSearchedBooks(@PathVariable("searched") String searched) throws IOException {
+        BookContentService bookContentService = new BookContentService();
+        BookContent result = bookContentService.searchBookTitle(searched); // Enter the search into elasticsearch
+        if(result == null){
+            return new BookContent();
+        }
         // TODO make function communicate with backend to perform search in elasticsearch and return json object books
         System.out.println("Retrieved the search: " + searched);
-        return "temp";
+        return result;
     }
     /*
      * TODO Should return recommended books for the current backend user as Json objects

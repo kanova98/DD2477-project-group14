@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div v-if="this.books.length > 0" class="container">
         <h1>Which books have you read?</h1>
         <div :key="ReadBook.title" v-for="ReadBook in books">
             <ReadBook @mark-read="$emit('mark-read', ReadBook.title)" :ReadBook="ReadBook" />
