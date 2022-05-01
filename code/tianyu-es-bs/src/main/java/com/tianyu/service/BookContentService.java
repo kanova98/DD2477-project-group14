@@ -14,6 +14,8 @@ import org.elasticsearch.client.RestClient;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.unit.TimeValue;
 import org.elasticsearch.common.xcontent.XContentType;
+import org.elasticsearch.index.query.MatchAllQueryBuilder;
+import org.elasticsearch.index.query.MatchPhraseQueryBuilder;
 import org.elasticsearch.index.query.MatchQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
@@ -126,5 +128,126 @@ public class BookContentService {
         return searchResult;
     }
 
+    public ArrayList<BookContent> searchBookAuthor (String keyword) throws IOException {
+        SearchRequest searchRequest = new SearchRequest("book_list");
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        MatchPhraseQueryBuilder matchQueryBuilder = QueryBuilders.matchPhraseQuery("authors",keyword);
+        sourceBuilder.query(matchQueryBuilder);
+        sourceBuilder.timeout(new TimeValue(60, TimeUnit.SECONDS));
+        searchRequest.source(sourceBuilder);
+        SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
 
+        ArrayList<BookContent> bookContentArrayList = new ArrayList<BookContent>();
+        for (int i = 0 ; i < searchResponse.getHits().getHits().length ; i++){
+            BookContent searchResult = new BookContent();
+            Map<String, Object> sourceAsMap = searchResponse.getHits().getHits()[i].getSourceAsMap();
+
+            searchResult.setTitle(sourceAsMap.get("title").toString());
+            ArrayList<String> authorList = (ArrayList<String>)sourceAsMap.get("authors");
+            for (int j = 0 ; j < authorList.size() ; j++ ){
+                searchResult.add_authors(authorList.get(j));
+            }
+            searchResult.setRanking(Float.parseFloat(sourceAsMap.get("ranking").toString()));
+            searchResult.setRankingCount(Float.parseFloat(sourceAsMap.get("rankingCount").toString()));
+            searchResult.setAbstractForBook(sourceAsMap.get("abstractForBook").toString());
+            searchResult.setPartOfSeries(Boolean.parseBoolean(sourceAsMap.get("partOfSeries").toString()));
+            ArrayList<String> genreList = (ArrayList<String>)sourceAsMap.get("genreList");
+            for (int j = 0 ; j < genreList.size() ; j++){
+                searchResult.add_genreList(genreList.get(j));
+            }
+
+            bookContentArrayList.add(searchResult);
+        }
+        return bookContentArrayList;
+    }
+
+    public ArrayList<BookContent> searchBookGenre (String keyword) throws IOException {
+        SearchRequest searchRequest = new SearchRequest("book_list");
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        MatchPhraseQueryBuilder matchQueryBuilder = QueryBuilders.matchPhraseQuery("genreList",keyword);
+        sourceBuilder.query(matchQueryBuilder);
+        sourceBuilder.timeout(new TimeValue(60, TimeUnit.SECONDS));
+        searchRequest.source(sourceBuilder);
+        SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
+
+        ArrayList<BookContent> bookContentArrayList = new ArrayList<BookContent>();
+        for (int i = 0 ; i < searchResponse.getHits().getHits().length ; i++){
+            BookContent searchResult = new BookContent();
+            Map<String, Object> sourceAsMap = searchResponse.getHits().getHits()[i].getSourceAsMap();
+
+            searchResult.setTitle(sourceAsMap.get("title").toString());
+            ArrayList<String> authorList = (ArrayList<String>)sourceAsMap.get("authors");
+            for (int j = 0 ; j < authorList.size() ; j++ ){
+                searchResult.add_authors(authorList.get(j));
+            }
+            searchResult.setRanking(Float.parseFloat(sourceAsMap.get("ranking").toString()));
+            searchResult.setRankingCount(Float.parseFloat(sourceAsMap.get("rankingCount").toString()));
+            searchResult.setAbstractForBook(sourceAsMap.get("abstractForBook").toString());
+            searchResult.setPartOfSeries(Boolean.parseBoolean(sourceAsMap.get("partOfSeries").toString()));
+            ArrayList<String> genreList = (ArrayList<String>)sourceAsMap.get("genreList");
+            for (int j = 0 ; j < genreList.size() ; j++){
+                searchResult.add_genreList(genreList.get(j));
+            }
+
+            bookContentArrayList.add(searchResult);
+        }
+        return bookContentArrayList;
+    }
+
+    public ArrayList<BookContent> getRecommendationList (ArrayList<BookContent> listRead) throws IOException {
+        ArrayList<BookContent> recommendationList = new ArrayList<BookContent>();
+        for (int i = 0; i < listRead.size(); i++) {
+            BookContent bookRead = listRead.get(i);
+            for (int j = 0; j < bookRead.getAuthors().size(); j++) {
+                ArrayList<BookContent> resultAuthorList = searchBookAuthor(bookRead.getAuthors().get(j));
+                for (int k = 0; k < resultAuthorList.size(); k++) {
+                    if (!recommendationList.contains(resultAuthorList.get(k))){
+                        recommendationList.add(resultAuthorList.get(k));
+                    }
+                }
+            }
+            for (int j = 0; j < bookRead.getGenreList().size(); j++) {
+                ArrayList<BookContent> resultGenreList = searchBookGenre(bookRead.getGenreList().get(j));
+                for (int k = 0; k < resultGenreList.size(); k++) {
+                    if (!recommendationList.contains(resultGenreList.get(k))){
+                        recommendationList.add(resultGenreList.get(k));
+                    }
+                }
+            }
+        }
+        return  recommendationList;
+    }
+
+    public ArrayList<BookContent> getAllBookList () throws IOException {
+        SearchRequest searchRequest = new SearchRequest("book_list");
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        MatchAllQueryBuilder matchAllQueryBuilder = QueryBuilders.matchAllQuery();
+        sourceBuilder.query(matchAllQueryBuilder);
+        sourceBuilder.timeout(new TimeValue(60, TimeUnit.SECONDS));
+        searchRequest.source(sourceBuilder);
+        SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
+
+        ArrayList<BookContent> bookContentArrayList = new ArrayList<BookContent>();
+        for (int i = 0; i < searchResponse.getHits().getHits().length; i++) {
+            BookContent searchResult = new BookContent();
+            Map<String, Object> sourceAsMap = searchResponse.getHits().getHits()[i].getSourceAsMap();
+
+            searchResult.setTitle(sourceAsMap.get("title").toString());
+            ArrayList<String> authorList = (ArrayList<String>) sourceAsMap.get("authors");
+            for (int j = 0; j < authorList.size(); j++) {
+                searchResult.add_authors(authorList.get(j));
+            }
+            searchResult.setRanking(Float.parseFloat(sourceAsMap.get("ranking").toString()));
+            searchResult.setRankingCount(Float.parseFloat(sourceAsMap.get("rankingCount").toString()));
+            searchResult.setAbstractForBook(sourceAsMap.get("abstractForBook").toString());
+            searchResult.setPartOfSeries(Boolean.parseBoolean(sourceAsMap.get("partOfSeries").toString()));
+            ArrayList<String> genreList = (ArrayList<String>) sourceAsMap.get("genreList");
+            for (int j = 0; j < genreList.size(); j++) {
+                searchResult.add_genreList(genreList.get(j));
+            }
+
+            bookContentArrayList.add(searchResult);
+        }
+        return bookContentArrayList;
+    }
 }

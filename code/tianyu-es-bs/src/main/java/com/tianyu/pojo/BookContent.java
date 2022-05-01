@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class BookContent {
 
     private String title;
-    public ArrayList<String> authors;
+    private ArrayList<String> authors;
     private float ranking;
     private float rankingCount;
     private String abstractForBook;
