@@ -24,8 +24,10 @@ public class BookContentServiceTest {
 
     @Test
     void test_searchBookTitle() throws IOException {
-        //BookContentService bookContentService = new BookContentService();
-        bookContentService.searchBookTitle("The Hunger Games");
+        ArrayList<BookContent> bookContentArrayList = bookContentService.searchBookTitle("The Hunger Games");
+        for (int i = 0; i < bookContentArrayList.size(); i++) {
+            System.out.println(bookContentArrayList.get(i));
+        }
     }
 
     @Test
