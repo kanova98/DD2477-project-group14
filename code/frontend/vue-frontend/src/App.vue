@@ -36,7 +36,6 @@ export default {
   methods: {
     async markAndDelete(title){
       const response = await fetch(`http://localhost:9090/read/${title}`, {
-        mode: 'no-cors',
         method: 'POST',
   
       })
@@ -61,11 +60,13 @@ export default {
     async getRecommendations(){
       const response = await fetch(`http://localhost:9090/books/recommendations`, {
         method: 'GET',
-      }).then(response => response.text())
-      .then(data => {
-        console.log(data)
-        this.recommendedBooks = JSON.parse(data)
       })
+      if(response.body !== null){
+        const data = await response.json()
+        console.log(data)
+        this.recommendedBooks = data
+        
+      }  
       
       //this.recommendedBooks = data
       
@@ -78,28 +79,12 @@ export default {
       if(response.body !== null){
         const data = await response.json()
         console.log(data)
-        console.log(data.title)
-        if(data.title != null){
-          this.books = [data]
-        }
+        this.books = data
       }   
     },
 
 
   },
-  created(){
-    this.recommendedBooks = [
-      {
-            "title": "Great book",
-            "authors": [
-                "group 14"
-            ],
-            "ranking": 5,
-            "ranking_count": 1000000000,
-            "abstract": "test book book test"
-      },
-    ]
-  } 
 }
 </script>
 

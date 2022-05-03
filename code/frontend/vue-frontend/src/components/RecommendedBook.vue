@@ -3,12 +3,11 @@
         <h3>{{RecommendedBook.title}}</h3>
         <p>Authors: {{RecommendedBook.authors.join(", ")}}</p>
         <p>Rating: {{RecommendedBook.ranking}}</p>
-        <p>Rating Count {{RecommendedBook.ranking_count}}</p>
         <button class="btn" @click="toggleAbstract()" >
             <label>  {{btnText}} </label>
         </button>
         <p v-if="showAbstract">
-             {{RecommendedBook.abstract}}
+             {{RecommendedBook.abstractForBook}}
         </p>
         
     </div>
