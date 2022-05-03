@@ -30,13 +30,18 @@ public class BookContentController{
     @CrossOrigin(origins = "http://localhost:8080")
     @PostMapping("/read/{title}")
     public void markBookAsRead(@PathVariable("title") String title) throws IOException {
-        // TODO mark book as read in backend information about user
+
 
         for(int i = 0; i < displayedBooks.size(); i++){
+            System.out.println("Entered displayedbooks");
+            System.out.println(displayedBooks.get(i).getTitle());
+            System.out.println(title);
             if(displayedBooks.get(i).getTitle().equals(title)){
 
-                //TODO solve issue of adding same book twice
-                currentUser.addBook(displayedBooks.get(i));
+                if(!currentUser.getReadBooks().contains(displayedBooks.get(i))){
+                    currentUser.addBook(displayedBooks.get(i));
+                }
+
                 displayedBooks.remove(i);
                 break;
             }
@@ -48,7 +53,6 @@ public class BookContentController{
 
     /*
      * Should return the books found using the query string "searched" as JSON objects
-     * TODO should return more than 1 result ideally
      */
     @CrossOrigin(origins = "http://localhost:8080")
     @GetMapping("/books/{searched}")
@@ -69,10 +73,12 @@ public class BookContentController{
     @CrossOrigin(origins = "http://localhost:8080")
     @GetMapping("/books/recommendations")
     public List<BookContent> getRecommendedBooks() throws IOException{
-
+        if(currentUser.getReadBooks().size() == 0){
+            return new ArrayList<>();
+        }
         BookContentService service = new BookContentService();
-        System.out.println(currentUser.computeAbstractCentroid());
-        ArrayList<BookContent> recommendedBooks = service.getRecommendationList(currentUser.getReadBooks());
+        String abstractCentroid = currentUser.computeAbstractCentroid();
+        ArrayList<BookContent> recommendedBooks = service.getRecommendationList(currentUser.getReadBooks(), abstractCentroid);
 
         return recommendedBooks;
     }

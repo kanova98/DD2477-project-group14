@@ -18,6 +18,7 @@ import org.elasticsearch.index.query.MatchAllQueryBuilder;
 import org.elasticsearch.index.query.MatchPhraseQueryBuilder;
 import org.elasticsearch.index.query.MatchQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
 
 import java.awt.print.Book;
@@ -238,7 +239,7 @@ public class BookContentService {
         return bookContentArrayList;
     }
 
-    public ArrayList<BookContent> getRecommendationList (ArrayList<BookContent> listRead) throws IOException {
+    public ArrayList<BookContent> getRecommendationList (ArrayList<BookContent> listRead, String abstractCentroid) throws IOException {
         System.out.println(listRead.size()+ " Books read in total");
         ArrayList<BookContent> recommendationList = new ArrayList<BookContent>();
         for (int i = 0; i < listRead.size(); i++) {
@@ -262,13 +263,47 @@ public class BookContentService {
                 }
             }
         }
+        ArrayList<BookContent> abstractBooks = getAbstractRecommendations(listRead, abstractCentroid);
         ArrayList<BookContent> finalThree = new ArrayList<>();
-        finalThree.add(recommendationList.get(0));
-        finalThree.add(recommendationList.get(1));
-        finalThree.add(recommendationList.get(2));
+        finalThree.add(abstractBooks.get(0));
+        finalThree.add(abstractBooks.get(1));
+        finalThree.add(abstractBooks.get(2));
         System.out.println(finalThree);
         return  finalThree;
     }
+
+    /*
+     * Queries elasticsearch using weighted query string "abstractCentroid" which has been calculated
+     * from the centroid of the current users read books. Returns an arraylist of books ranked by elasticsearch
+     * based on how relevant they are in relation to the weighted query string
+     */
+    private ArrayList<BookContent> getAbstractRecommendations(ArrayList<BookContent> readBooks, String abstractCentroid) throws IOException{
+        SearchRequest searchRequest = new SearchRequest("book_list");
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        MatchQueryBuilder matchQueryBuilder = QueryBuilders.matchQuery("abstractForBook", abstractCentroid);
+        sourceBuilder.size(1000);
+        sourceBuilder.query(matchQueryBuilder);
+
+        sourceBuilder.timeout(new TimeValue(60, TimeUnit.SECONDS));
+        searchRequest.source(sourceBuilder);
+        SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
+
+        ArrayList<BookContent> foundBooks = new ArrayList<>();
+        SearchHit[] results = searchResponse.getHits().getHits();
+        System.out.println("Found: "+results.length + " abstract book recommendations");
+        for (int i = 0 ; i < results.length; i++){
+            BookContent foundBook = new BookContent(results[i]);
+            if(!readBooks.contains(foundBook)){
+                foundBooks.add(foundBook);
+            }
+
+        }
+
+        return foundBooks;
+
+    }
+
+
 
     public ArrayList<BookContent> getAllBookList () throws IOException {
         SearchRequest searchRequest = new SearchRequest("book_list");

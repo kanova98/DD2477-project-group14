@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     async markAndDelete(title){
-      const response = await fetch(`http://localhost:9090/read/${title}`, {
+      const response = await fetch(`http://localhost:9090/read/${encodeURIComponent(title)}`, {
         method: 'POST',
   
       })
@@ -65,7 +65,6 @@ export default {
         const data = await response.json()
         console.log(data)
         this.recommendedBooks = data
-        
       }  
       
       //this.recommendedBooks = data
