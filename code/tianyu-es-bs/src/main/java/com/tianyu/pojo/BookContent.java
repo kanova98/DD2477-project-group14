@@ -16,7 +16,6 @@ public class BookContent {
     private String abstractForBook;
     private boolean partOfSeries;
     private ArrayList<String> genreList;
-    private float score;
     public void add_authors(String author){
         authors.add(author);
     }
