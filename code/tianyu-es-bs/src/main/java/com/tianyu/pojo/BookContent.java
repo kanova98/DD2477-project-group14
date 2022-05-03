@@ -15,8 +15,13 @@ public class BookContent {
     private float ranking;
     private float rankingCount;
     private String abstractForBook;
+<<<<<<< HEAD
     private boolean partOfSeries;private ArrayList<String> genreList;
     private float score;
+=======
+    private boolean partOfSeries;
+    private ArrayList<String> genreList;
+>>>>>>> 5b36444c9e9458b4e4714a1daaf8085d5fbd1e07
     public void add_authors(String author){
         authors.add(author);
     }
@@ -30,6 +35,7 @@ public class BookContent {
         genreList = new ArrayList<String>();
     }
 
+<<<<<<< HEAD
     /*
         Constructor for creating a bookContent object off of an elasticsearch searchhit
      */
@@ -59,3 +65,6 @@ public class BookContent {
     }
 
 }
+=======
+}
+>>>>>>> 5b36444c9e9458b4e4714a1daaf8085d5fbd1e07
