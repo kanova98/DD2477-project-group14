@@ -10,14 +10,13 @@ import java.util.Map;
 @Data
 @AllArgsConstructor
 public class BookContent {
-
     private String title;
     private ArrayList<String> authors;
     private float ranking;
     private float rankingCount;
     private String abstractForBook;
     private boolean partOfSeries;private ArrayList<String> genreList;
-
+    private float score;
     public void add_authors(String author){
         authors.add(author);
     }
