@@ -20,7 +20,9 @@ import org.elasticsearch.index.query.MatchQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
 
+import java.awt.print.Book;
 import java.io.*;
+import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -132,9 +134,12 @@ public class BookContentService {
     }
 
     public ArrayList<BookContent> searchBookAuthor (String keyword) throws IOException {
+
+
         SearchRequest searchRequest = new SearchRequest("book_list");
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
         MatchPhraseQueryBuilder matchQueryBuilder = QueryBuilders.matchPhraseQuery("authors",keyword);
+        sourceBuilder.size(1000);
         sourceBuilder.query(matchQueryBuilder);
         sourceBuilder.timeout(new TimeValue(60, TimeUnit.SECONDS));
         searchRequest.source(sourceBuilder);
@@ -168,12 +173,14 @@ public class BookContentService {
         SearchRequest searchRequest = new SearchRequest("book_list");
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
         MatchPhraseQueryBuilder matchQueryBuilder = QueryBuilders.matchPhraseQuery("genreList",keyword);
+        sourceBuilder.size(1000);
         sourceBuilder.query(matchQueryBuilder);
         sourceBuilder.timeout(new TimeValue(60, TimeUnit.SECONDS));
         searchRequest.source(sourceBuilder);
         SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
 
         ArrayList<BookContent> bookContentArrayList = new ArrayList<BookContent>();
+
         for (int i = 0 ; i < searchResponse.getHits().getHits().length ; i++){
             BookContent searchResult = new BookContent();
             Map<String, Object> sourceAsMap = searchResponse.getHits().getHits()[i].getSourceAsMap();
@@ -198,6 +205,7 @@ public class BookContentService {
     }
 
     public ArrayList<BookContent> getRecommendationList (ArrayList<BookContent> listRead) throws IOException {
+        System.out.println(listRead.size()+ " Books read in total");
         ArrayList<BookContent> recommendationList = new ArrayList<BookContent>();
         for (int i = 0; i < listRead.size(); i++) {
             BookContent bookRead = listRead.get(i);
@@ -210,15 +218,22 @@ public class BookContentService {
                 }
             }
             for (int j = 0; j < bookRead.getGenreList().size(); j++) {
+
                 ArrayList<BookContent> resultGenreList = searchBookGenre(bookRead.getGenreList().get(j));
                 for (int k = 0; k < resultGenreList.size(); k++) {
+
                     if (!recommendationList.contains(resultGenreList.get(k))){
                         recommendationList.add(resultGenreList.get(k));
                     }
                 }
             }
         }
-        return  recommendationList;
+        ArrayList<BookContent> finalThree = new ArrayList<>();
+        finalThree.add(recommendationList.get(0));
+        finalThree.add(recommendationList.get(1));
+        finalThree.add(recommendationList.get(2));
+        System.out.println(finalThree);
+        return  finalThree;
     }
 
     public ArrayList<BookContent> getAllBookList () throws IOException {
