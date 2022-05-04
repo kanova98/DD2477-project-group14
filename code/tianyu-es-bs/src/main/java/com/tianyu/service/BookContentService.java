@@ -61,7 +61,9 @@ public class BookContentService {
                 for (int k = 0; k < books.getJSONArray("genre_list").size(); k++) {
                     bookContent.add_genreList(books.getJSONArray("genre_list").get(k).toString());
                 }
-                bookContentArrayList.add(bookContent);
+                if (!bookContentArrayList.contains(bookContent)){
+                    bookContentArrayList.add(bookContent);
+                }
             }
         }
 
