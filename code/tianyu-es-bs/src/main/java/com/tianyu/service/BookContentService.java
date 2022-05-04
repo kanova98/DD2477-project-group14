@@ -25,6 +25,8 @@ import java.awt.print.Book;
 import java.io.*;
 import java.sql.Array;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
@@ -204,44 +206,52 @@ public class BookContentService {
         return bookContentArrayList;
     }
 
-    public ArrayList<BookContent> searchBookGenre (String keyword) throws IOException {
+    public HashMap<BookContent, Float> searchBookGenre (ArrayList<BookContent> readBooks, HashMap<String, Float> genreWeights) throws IOException {
+
+        StringBuilder sb = new StringBuilder();
+        for(String genre : genreWeights.keySet()){
+            sb.append(genre);
+            sb.append(" ");
+        }
+        String keyword = sb.toString();
         SearchRequest searchRequest = new SearchRequest("book_list");
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
-        MatchPhraseQueryBuilder matchQueryBuilder = QueryBuilders.matchPhraseQuery("genreList",keyword);
+        MatchQueryBuilder matchQueryBuilder = QueryBuilders.matchQuery("genreList",keyword);
         sourceBuilder.size(1000);
         sourceBuilder.query(matchQueryBuilder);
         sourceBuilder.timeout(new TimeValue(60, TimeUnit.SECONDS));
         searchRequest.source(sourceBuilder);
         SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
+        SearchHit[] results = searchResponse.getHits().getHits();
 
-        ArrayList<BookContent> bookContentArrayList = new ArrayList<BookContent>();
+        HashMap<BookContent, Float> booksWithScores = new HashMap<>();
+        for (int i = 0 ; i < results.length ; i++) {
+            BookContent searchResult = new BookContent(results[i]);
 
-        for (int i = 0 ; i < searchResponse.getHits().getHits().length ; i++){
-            BookContent searchResult = new BookContent();
-            Map<String, Object> sourceAsMap = searchResponse.getHits().getHits()[i].getSourceAsMap();
+            ArrayList<String> genreList = searchResult.getGenreList();
+            float score = 0;
+            for (int j = 0; j < genreList.size(); j++) {
 
-            searchResult.setTitle(sourceAsMap.get("title").toString());
-            ArrayList<String> authorList = (ArrayList<String>)sourceAsMap.get("authors");
-            for (int j = 0 ; j < authorList.size() ; j++ ){
-                searchResult.add_authors(authorList.get(j));
+                if (genreWeights.containsKey(genreList.get(j))) {
+                    score += genreWeights.get(genreList.get(j)) * 1 / (float) (j + 1);
+                }
             }
-            searchResult.setRanking(Float.parseFloat(sourceAsMap.get("ranking").toString()));
-            searchResult.setRankingCount(Float.parseFloat(sourceAsMap.get("rankingCount").toString()));
-            searchResult.setAbstractForBook(sourceAsMap.get("abstractForBook").toString());
-            searchResult.setPartOfSeries(Boolean.parseBoolean(sourceAsMap.get("partOfSeries").toString()));
-            ArrayList<String> genreList = (ArrayList<String>)sourceAsMap.get("genreList");
-            for (int j = 0 ; j < genreList.size() ; j++){
-                searchResult.add_genreList(genreList.get(j));
+            if(!readBooks.contains(searchResult)){
+                booksWithScores.put(searchResult, score);
             }
 
-            bookContentArrayList.add(searchResult);
+
         }
-        return bookContentArrayList;
+        return booksWithScores;
     }
 
-    public ArrayList<BookContent> getRecommendationList (ArrayList<BookContent> listRead, String abstractCentroid) throws IOException {
+    public ArrayList<BookContent> getRecommendationList (ArrayList<BookContent> listRead, String abstractCentroid, HashMap<String,Float> genreWeights) throws IOException {
         System.out.println(listRead.size()+ " Books read in total");
-        ArrayList<BookContent> recommendationList = new ArrayList<BookContent>();
+        HashMap<BookContent, Float> genreScores =  searchBookGenre(listRead, genreWeights);
+
+
+
+        /*
         for (int i = 0; i < listRead.size(); i++) {
             BookContent bookRead = listRead.get(i);
             for (int j = 0; j < bookRead.getAuthors().size(); j++) {
@@ -263,13 +273,46 @@ public class BookContentService {
                 }
             }
         }
-        ArrayList<BookContent> abstractBooks = getAbstractRecommendations(listRead, abstractCentroid);
-        ArrayList<BookContent> finalThree = new ArrayList<>();
-        finalThree.add(abstractBooks.get(0));
-        finalThree.add(abstractBooks.get(1));
-        finalThree.add(abstractBooks.get(2));
-        System.out.println(finalThree);
-        return  finalThree;
+
+         */
+        HashMap<BookContent, Float> abstractScores = getAbstractRecommendations(listRead, abstractCentroid);
+        ArrayList<HashMap<BookContent, Float>> scores = new ArrayList<>();
+        scores.add(genreScores);
+        scores.add(abstractScores);
+        HashMap<BookContent, Float> unionBooks = union(scores);
+
+
+
+        return  findTopThree(unionBooks);
+    }
+
+    private ArrayList<BookContent> findTopThree(HashMap<BookContent, Float> scores){
+        ArrayList<BookContent> books = new ArrayList<>();
+        float nr1 = 0.0F;
+        float nr2 = 0.0F;
+        float nr3 = 0.0F;
+
+        for(Map.Entry<BookContent, Float> entry : scores.entrySet()){
+            if(entry.getValue() > nr1){
+                nr3 = nr2;
+                nr2 = nr1;
+                nr1 = entry.getValue();
+                books.add(0, entry.getKey());
+            }
+            else if (entry.getValue() > nr2){
+                nr3 = nr2;
+                nr2 = entry.getValue();
+                books.add(1, entry.getKey());
+            } else if (entry.getValue() > nr3) {
+                nr3 = entry.getValue();
+                books.add(2, entry.getKey());
+            }
+            if(books.size() > 3){
+                books.remove(3);
+            }
+        }
+        return books;
+
     }
 
     /*
@@ -277,30 +320,51 @@ public class BookContentService {
      * from the centroid of the current users read books. Returns an arraylist of books ranked by elasticsearch
      * based on how relevant they are in relation to the weighted query string
      */
-    private ArrayList<BookContent> getAbstractRecommendations(ArrayList<BookContent> readBooks, String abstractCentroid) throws IOException{
+    private HashMap<BookContent, Float> getAbstractRecommendations(ArrayList<BookContent> readBooks, String abstractCentroid) throws IOException{
         SearchRequest searchRequest = new SearchRequest("book_list");
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
         MatchQueryBuilder matchQueryBuilder = QueryBuilders.matchQuery("abstractForBook", abstractCentroid);
         sourceBuilder.size(1000);
         sourceBuilder.query(matchQueryBuilder);
-
         sourceBuilder.timeout(new TimeValue(60, TimeUnit.SECONDS));
         searchRequest.source(sourceBuilder);
         SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
 
-        ArrayList<BookContent> foundBooks = new ArrayList<>();
+        HashMap<BookContent, Float> abstractScores = new HashMap<>();
         SearchHit[] results = searchResponse.getHits().getHits();
-        System.out.println("Found: "+results.length + " abstract book recommendations");
+
         for (int i = 0 ; i < results.length; i++){
             BookContent foundBook = new BookContent(results[i]);
+            Float score = results[i].getScore();
             if(!readBooks.contains(foundBook)){
-                foundBooks.add(foundBook);
+                abstractScores.put(foundBook,score);
             }
 
         }
+        return abstractScores;
 
-        return foundBooks;
+    }
 
+    /*
+     * Does a union of lists of bookcontent. combines the score of multiple entries.
+     */
+    private HashMap<BookContent, Float> union(ArrayList<HashMap<BookContent, Float>> books){
+        HashMap<BookContent, Float> unionScores = new HashMap<>();
+
+        for(HashMap<BookContent, Float> bookMap : books){
+            for(Map.Entry<BookContent,Float> book : bookMap.entrySet()){
+
+                if(unionScores.containsKey(book.getKey())){
+                    Float prevVal = unionScores.get(book.getKey());
+                    Float newVal = prevVal + book.getValue();
+                    unionScores.put(book.getKey(), newVal);
+                }
+                else{
+                    unionScores.put(book.getKey(), book.getValue());
+                }
+            }
+        }
+        return unionScores;
     }
 
 

@@ -12,6 +12,7 @@ import java.awt.print.Book;
 import java.io.IOException;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 @RestController
@@ -68,7 +69,6 @@ public class BookContentController{
         return result;
     }
     /*
-     * TODO Should return recommended books for the current backend user as Json objects
      */
     @CrossOrigin(origins = "http://localhost:8080")
     @GetMapping("/books/recommendations")
@@ -78,7 +78,8 @@ public class BookContentController{
         }
         BookContentService service = new BookContentService();
         String abstractCentroid = currentUser.computeAbstractCentroid();
-        ArrayList<BookContent> recommendedBooks = service.getRecommendationList(currentUser.getReadBooks(), abstractCentroid);
+        HashMap<String, Float> genreWeights = currentUser.computeGenreWeights();
+        ArrayList<BookContent> recommendedBooks = service.getRecommendationList(currentUser.getReadBooks(), abstractCentroid, genreWeights);
 
         return recommendedBooks;
     }

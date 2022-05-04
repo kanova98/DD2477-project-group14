@@ -18,7 +18,6 @@ public class BookContent {
 
     private boolean partOfSeries;
     private ArrayList<String> genreList;
-    private float score;
     
 
     public void add_authors(String author){
@@ -28,6 +27,7 @@ public class BookContent {
     public void add_genreList(String genre){
         genreList.add(genre);
     }
+
 
     public BookContent(){
         authors = new ArrayList<String>();

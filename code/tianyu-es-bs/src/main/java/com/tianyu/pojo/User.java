@@ -89,4 +89,27 @@ public class User {
         return sb.toString();
 
     }
+
+    /*
+     * Goes through all the books that the user has read and computes weights for each genre
+     * Return the weight for each genre as a hashmap where the key is the genre and the value is the weight
+     */
+    public HashMap<String, Float> computeGenreWeights(){
+        HashMap<String, Float> weights = new HashMap<>();
+        for(BookContent book : readBooks){
+            ArrayList<String> genreList = book.getGenreList();
+            for(int i = 1; i <= genreList.size(); i++){
+                String currentGenre = genreList.get(i-1);
+                if(weights.containsKey(currentGenre)){
+                    weights.put(currentGenre, weights.get(currentGenre) + 1 / (float) i);
+                }
+                else{
+                    weights.put(currentGenre, 1 / (float) i);
+                }
+
+            }
+        }
+        return weights;
+    }
+
 }
