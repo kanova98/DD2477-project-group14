@@ -172,40 +172,59 @@ public class BookContentService {
         return bookContentArrayList;
     }
 
-    public ArrayList<BookContent> searchBookAuthor (String keyword) throws IOException {
+    /*
+     * Does a weighted query to elasticsearch where authors that the user has read prior books from
+     * are given a higher score
+     */
+    public HashMap<BookContent, Float> searchBookAuthor (ArrayList<BookContent> readBooks) throws IOException {
 
+        // Create a hashmap from author to occurrences
+        HashMap<String, Integer> authorOccurences = new HashMap<>();
+        for(BookContent book : readBooks){
+            for(String author : book.getAuthors()){
+                if(!authorOccurences.containsKey(author)){
+                    authorOccurences.put(author, 1);
+                }
+                else{
+                    authorOccurences.put(author, authorOccurences.get(author) + 1);
+                }
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        float booksInTotal = readBooks.size();
+        for(Map.Entry<String, Integer> author : authorOccurences.entrySet()){
+            sb.append("\"");
+            sb.append(author.getKey());
+            sb.append("\"");
+            sb.append("^");
+            sb.append(author.getValue() / booksInTotal);
+            sb.append(" ");
+        }
+        String keyword = sb.toString();
 
         SearchRequest searchRequest = new SearchRequest("book_list");
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
-        MatchPhraseQueryBuilder matchQueryBuilder = QueryBuilders.matchPhraseQuery("authors",keyword);
+        MatchQueryBuilder matchQueryBuilder = QueryBuilders.matchQuery("authors",keyword);
         sourceBuilder.size(1000);
         sourceBuilder.query(matchQueryBuilder);
         sourceBuilder.timeout(new TimeValue(60, TimeUnit.SECONDS));
         searchRequest.source(sourceBuilder);
         SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
+        // Create map for scores
+        HashMap<BookContent, Float> authorScores = new HashMap<>();
+        SearchHit[] results = searchResponse.getHits().getHits();
 
-        ArrayList<BookContent> bookContentArrayList = new ArrayList<BookContent>();
-        for (int i = 0 ; i < searchResponse.getHits().getHits().length ; i++){
-            BookContent searchResult = new BookContent();
-            Map<String, Object> sourceAsMap = searchResponse.getHits().getHits()[i].getSourceAsMap();
-
-            searchResult.setTitle(sourceAsMap.get("title").toString());
-            ArrayList<String> authorList = (ArrayList<String>)sourceAsMap.get("authors");
-            for (int j = 0 ; j < authorList.size() ; j++ ){
-                searchResult.add_authors(authorList.get(j));
-            }
-            searchResult.setRanking(Float.parseFloat(sourceAsMap.get("ranking").toString()));
-            searchResult.setRankingCount(Float.parseFloat(sourceAsMap.get("rankingCount").toString()));
-            searchResult.setAbstractForBook(sourceAsMap.get("abstractForBook").toString());
-            searchResult.setPartOfSeries(Boolean.parseBoolean(sourceAsMap.get("partOfSeries").toString()));
-            ArrayList<String> genreList = (ArrayList<String>)sourceAsMap.get("genreList");
-            for (int j = 0 ; j < genreList.size() ; j++){
-                searchResult.add_genreList(genreList.get(j));
+        for (int i = 0 ; i < results.length; i++){
+            BookContent foundBook = new BookContent(results[i]);
+            Float score = results[i].getScore();
+            if(!readBooks.contains(foundBook)){
+                authorScores.put(foundBook,score);
+                System.out.println(foundBook);
+                System.out.println(score);
             }
 
-            bookContentArrayList.add(searchResult);
         }
-        return bookContentArrayList;
+        return authorScores;
     }
 
     public HashMap<BookContent, Float> searchBookGenre (ArrayList<BookContent> readBooks, HashMap<String, Float> genreWeights) throws IOException {
@@ -250,44 +269,19 @@ public class BookContentService {
     public ArrayList<BookContent> getRecommendationList (ArrayList<BookContent> listRead, String abstractCentroid, HashMap<String,Float> genreWeights) throws IOException {
         System.out.println(listRead.size()+ " Books read in total");
         HashMap<BookContent, Float> genreScores =  searchBookGenre(listRead, genreWeights);
-
-
-
-        /*
-        for (int i = 0; i < listRead.size(); i++) {
-            BookContent bookRead = listRead.get(i);
-            for (int j = 0; j < bookRead.getAuthors().size(); j++) {
-                ArrayList<BookContent> resultAuthorList = searchBookAuthor(bookRead.getAuthors().get(j));
-                for (int k = 0; k < resultAuthorList.size(); k++) {
-                    if (!recommendationList.contains(resultAuthorList.get(k))){
-                        recommendationList.add(resultAuthorList.get(k));
-                    }
-                }
-            }
-            for (int j = 0; j < bookRead.getGenreList().size(); j++) {
-
-                ArrayList<BookContent> resultGenreList = searchBookGenre(bookRead.getGenreList().get(j));
-                for (int k = 0; k < resultGenreList.size(); k++) {
-
-                    if (!recommendationList.contains(resultGenreList.get(k))){
-                        recommendationList.add(resultGenreList.get(k));
-                    }
-                }
-            }
-        }
-
-         */
+        HashMap<BookContent, Float> authorScores = searchBookAuthor(listRead);
         HashMap<BookContent, Float> abstractScores = getAbstractRecommendations(listRead, abstractCentroid);
         ArrayList<HashMap<BookContent, Float>> scores = new ArrayList<>();
         scores.add(genreScores);
+        scores.add(authorScores);
         scores.add(abstractScores);
+
         HashMap<BookContent, Float> unionBooks = union(scores);
-
-
-
         return  findTopThree(unionBooks);
     }
-
+    /*
+     * Retrieves the three books with the highest scores
+     */
     private ArrayList<BookContent> findTopThree(HashMap<BookContent, Float> scores){
         ArrayList<BookContent> books = new ArrayList<>();
         float nr1 = 0.0F;
