@@ -41,7 +41,7 @@ public class BookContentService {
 
         ArrayList<BookContent> bookContentArrayList = new ArrayList<BookContent>();
 
-        for (int f = 1 ; f <= 10 ; f++ ){
+        for (int f = 10 ; f <= 30 ; f++ ){
             String filename = readJsonFile("/Users/filipkana/Documents/Skolarbete/DD2477/irProject/Data/dataset" + String.valueOf(f) + ".json");
             JSONObject jobj = JSON.parseObject(filename);
 
@@ -213,18 +213,33 @@ public class BookContentService {
         // Create map for scores
         HashMap<BookContent, Float> authorScores = new HashMap<>();
         SearchHit[] results = searchResponse.getHits().getHits();
-
+        Float highestScore = 0.0F;
         for (int i = 0 ; i < results.length; i++){
             BookContent foundBook = new BookContent(results[i]);
             Float score = results[i].getScore();
             if(!readBooks.contains(foundBook)){
+                if(score > highestScore){
+                    highestScore = score;
+                }
                 authorScores.put(foundBook,score);
                 System.out.println(foundBook);
                 System.out.println(score);
             }
-
         }
+        // Normalize score by dividing with the highest
+        authorScores = normalizeScores(authorScores, highestScore);
+
         return authorScores;
+    }
+    /*
+     * Normalizes a hashmap with bookcontent and scores, by dividing each score by the parameter score.
+     */
+    private HashMap<BookContent, Float> normalizeScores(HashMap<BookContent, Float> booksWithScores, Float score){
+        for(BookContent book : booksWithScores.keySet()){
+            float normVal = booksWithScores.get(book) / score;
+            booksWithScores.put(book, normVal);
+        }
+        return booksWithScores;
     }
 
     public HashMap<BookContent, Float> searchBookGenre (ArrayList<BookContent> readBooks, HashMap<String, Float> genreWeights) throws IOException {
@@ -246,6 +261,7 @@ public class BookContentService {
         SearchHit[] results = searchResponse.getHits().getHits();
 
         HashMap<BookContent, Float> booksWithScores = new HashMap<>();
+        float highestScore = 0.0F;
         for (int i = 0 ; i < results.length ; i++) {
             BookContent searchResult = new BookContent(results[i]);
 
@@ -258,11 +274,14 @@ public class BookContentService {
                 }
             }
             if(!readBooks.contains(searchResult)){
+                if(score > highestScore){
+                    highestScore = score;
+                }
                 booksWithScores.put(searchResult, score);
             }
 
-
         }
+        booksWithScores = normalizeScores(booksWithScores, highestScore);
         return booksWithScores;
     }
 
@@ -328,15 +347,18 @@ public class BookContentService {
 
         HashMap<BookContent, Float> abstractScores = new HashMap<>();
         SearchHit[] results = searchResponse.getHits().getHits();
-
+        float highestScore = 0.0F;
         for (int i = 0 ; i < results.length; i++){
             BookContent foundBook = new BookContent(results[i]);
             Float score = results[i].getScore();
             if(!readBooks.contains(foundBook)){
+                if(score > highestScore){
+                    highestScore = score;
+                }
                 abstractScores.put(foundBook,score);
             }
-
         }
+        abstractScores = normalizeScores(abstractScores, highestScore);
         return abstractScores;
 
     }
@@ -346,10 +368,12 @@ public class BookContentService {
      */
     private HashMap<BookContent, Float> union(ArrayList<HashMap<BookContent, Float>> books){
         HashMap<BookContent, Float> unionScores = new HashMap<>();
-
+        float mostRatings = 0.0F;
         for(HashMap<BookContent, Float> bookMap : books){
             for(Map.Entry<BookContent,Float> book : bookMap.entrySet()){
-
+                if(book.getKey().getRankingCount() > mostRatings){
+                    mostRatings = book.getKey().getRankingCount();
+                }
                 if(unionScores.containsKey(book.getKey())){
                     Float prevVal = unionScores.get(book.getKey());
                     Float newVal = prevVal + book.getValue();
@@ -358,8 +382,19 @@ public class BookContentService {
                 else{
                     unionScores.put(book.getKey(), book.getValue());
                 }
+                //System.out.println("book with score;");
+                //System.out.println(book);
+                //System.out.println(unionScores.get(book.getKey()));
             }
         }
+        // We give a maximum of 2 extra points based on the amount of people that have rated the book and the rating it has received
+        for(BookContent book : unionScores.keySet()){
+            Float ratingScore = (book.getRanking() / (float) 5) + book.getRankingCount() / mostRatings;
+            Float oldscore = unionScores.get(book);
+            unionScores.put(book, ratingScore + oldscore);
+            System.out.println("Book with title "+ book.getTitle() + " Received score "+ unionScores.get(book));
+        }
+
         return unionScores;
     }
 

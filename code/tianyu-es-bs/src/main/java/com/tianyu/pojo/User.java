@@ -83,7 +83,7 @@ public class User {
             if(count > 1500){
                 break;
             }
-            System.out.println(count);
+
         }
         System.out.println(sb.toString());
         return sb.toString();
