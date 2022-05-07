@@ -41,7 +41,7 @@ public class BookContentService {
 
         ArrayList<BookContent> bookContentArrayList = new ArrayList<BookContent>();
 
-        for (int f = 10 ; f <= 30 ; f++ ){
+        for (int f = 0 ; f <= 160 ; f++ ){
             String filename = readJsonFile("/Users/filipkana/Documents/Skolarbete/DD2477/irProject/Data/dataset" + String.valueOf(f) + ".json");
             JSONObject jobj = JSON.parseObject(filename);
 
@@ -365,6 +365,7 @@ public class BookContentService {
 
     /*
      * Does a union of lists of bookcontent. combines the score of multiple entries.
+     * Also gives scores based on book ranking and ranking count.
      */
     private HashMap<BookContent, Float> union(ArrayList<HashMap<BookContent, Float>> books){
         HashMap<BookContent, Float> unionScores = new HashMap<>();
