@@ -2,6 +2,7 @@ package com.tianyu.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.elasticsearch.search.SearchHit;
 
 import java.util.ArrayList;
@@ -12,7 +13,9 @@ import java.util.Map;
 public class BookContent {
     private String title;
     private ArrayList<String> authors;
+    @EqualsAndHashCode.Exclude
     private float ranking;
+    @EqualsAndHashCode.Exclude
     private float rankingCount;
     private String abstractForBook;
 

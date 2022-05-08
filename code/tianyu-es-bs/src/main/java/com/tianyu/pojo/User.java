@@ -28,7 +28,7 @@ public class User {
         String line;
         while((line = reader.readLine()) != null){
             stopWords.add(line.replace("\n", ""));
-            System.out.println("Read stopword: "+ line);
+
         }
 
         return stopWords;
@@ -49,7 +49,7 @@ public class User {
     /*
      * Uses the books that the reader has read to compute a string with boosted
      * terms according to their frequency in the abstracts of the books that the user has read
-     * //TODO fix so that method only returns a string of a given maximum length in some way
+
      */
     public String computeAbstractCentroid() throws IOException {
 

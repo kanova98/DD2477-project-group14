@@ -40,8 +40,9 @@ public class BookContentService {
     public ArrayList<BookContent> parseBookContent() throws IOException {
 
         ArrayList<BookContent> bookContentArrayList = new ArrayList<BookContent>();
+        HashMap<String, BookContent> titleToBooks = new HashMap<>();
 
-        for (int f = 0 ; f <= 160 ; f++ ){
+        for (int f = 1 ; f <= 160 ; f++ ){
             String filename = readJsonFile("/Users/filipkana/Documents/Skolarbete/DD2477/irProject/Data/dataset" + String.valueOf(f) + ".json");
             JSONObject jobj = JSON.parseObject(filename);
 
@@ -50,6 +51,8 @@ public class BookContentService {
             for (int i = 0; i < bookListLength; i++) {
                 BookContent bookContent = new BookContent();
                 JSONObject books = jobj.getJSONArray("books").getJSONObject(i);
+
+
                 bookContent.setTitle(books.get("title").toString());
                 for (int k = 0; k < books.getJSONArray("authors").size(); k++) {
                     bookContent.add_authors(books.getJSONArray("authors").get(k).toString());
@@ -61,9 +64,16 @@ public class BookContentService {
                 for (int k = 0; k < books.getJSONArray("genre_list").size(); k++) {
                     bookContent.add_genreList(books.getJSONArray("genre_list").get(k).toString());
                 }
+               
+
+
                 if (!bookContentArrayList.contains(bookContent)){
                     bookContentArrayList.add(bookContent);
                 }
+                else{
+                    //System.out.println("Found duplicate book with title: "+ bookContent.getTitle());
+                }
+
             }
         }
 

@@ -18,6 +18,8 @@ import org.elasticsearch.action.update.UpdateRequest;
 import org.elasticsearch.action.update.UpdateResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.client.core.CountRequest;
+import org.elasticsearch.client.core.CountResponse;
 import org.elasticsearch.client.indices.CreateIndexRequest;
 import org.elasticsearch.client.indices.CreateIndexResponse;
 import org.elasticsearch.client.indices.GetIndexRequest;
@@ -57,9 +59,19 @@ class EsApiApplicationTests {
     // test for get index true for exists
     @Test
     void testDeleteIndex() throws IOException {
-        DeleteIndexRequest request = new DeleteIndexRequest("tianyu_index");
+        DeleteIndexRequest request = new DeleteIndexRequest("book_list");
         AcknowledgedResponse delete = client.indices().delete(request, RequestOptions.DEFAULT);
         System.out.println(delete.isAcknowledged());
+    }
+    @Test
+    void checkNumberOfDocs() throws IOException {
+        CountRequest countRequest = new CountRequest("book_list");
+        SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+        searchSourceBuilder.query(QueryBuilders.matchAllQuery());
+        countRequest.source(searchSourceBuilder);
+
+        CountResponse resp = client.count(countRequest, RequestOptions.DEFAULT);
+        System.out.println(resp.getCount());
     }
 
     // test for delete index
