@@ -24,7 +24,7 @@ If using Command line and not intellj:
 
 Indexing:
 
-1. Go to `src/test/java/com/tianyu/BookContentServiceTest.java
+1. Go to `src/test/java/com/tianyu/BookContentServiceTest.java`
 2. Run test 'contextloads' to insert all books into elasticsearch either via `mvn test -Dtest="BookContentServiceTest"` or intellij
 
 Start the backend:
