@@ -14,8 +14,8 @@ Backend:
 2. run `elasticsearch.bat` in `elasticsearch-7.6.2\bin`
 3. Add `<repo>\code\tianyu-es-bs\pom.xml` as a maven project if not yet
 4. go to `<repo>/code/tianyu-es-bs/src/main/java/com/tianyu/service/BookContentService.java`
-  - change `/Users/filipkana/Documents/Skolarbete/DD2477/irProject/Data/dataset` to `<repo>/Data/dataset`
+    - change `/Users/filipkana/Documents/Skolarbete/DD2477/irProject/Data/dataset` to `<repo>/Data/dataset`
 5. go to `<repo>/code/tianyu-es-bs/src/main/java/com/tianyu/pojo/User.java`
-  - change `/Users/filipkana/Documents/Skolarbete/DD2477/irProject/code/tianyu-es-bs/src/main/resources/stopWords.txt` to `<repo>/code/tianyu-es-bs/src/main/resources/stopWords.txt`
-  - change `/Users/filipkana/Documents/Skolarbete/DD2477/irProject/code/tianyu-es-bs/src/main/resources/patterns.txt` to `<repo>/code/tianyu-es-bs/src/main/resources/patterns.txt`
+      - change `/Users/filipkana/Documents/Skolarbete/DD2477/irProject/code/tianyu-es-bs/src/main/resources/stopWords.txt` to `<repo>/code/tianyu-es-bs/src/main/resources/stopWords.txt`
+    - change `/Users/filipkana/Documents/Skolarbete/DD2477/irProject/code/tianyu-es-bs/src/main/resources/patterns.txt` to `<repo>/code/tianyu-es-bs/src/main/resources/patterns.txt`
 6. run `ElasticSearchBookSearchApplication.java` in `<repo>/code/tianyu-es-bs/src/main/java/com/tianyu`
