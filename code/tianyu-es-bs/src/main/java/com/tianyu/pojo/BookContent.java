@@ -17,9 +17,12 @@ public class BookContent {
     private float ranking;
     @EqualsAndHashCode.Exclude
     private float rankingCount;
+    @EqualsAndHashCode.Exclude
     private String abstractForBook;
 
     private boolean partOfSeries;
+
+    @EqualsAndHashCode.Exclude
     private ArrayList<String> genreList;
     
 
